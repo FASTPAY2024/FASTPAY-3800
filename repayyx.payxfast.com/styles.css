@@ -24,7 +24,7 @@ body {
     color: black;
     border: none;
     padding: 8px 10px;
-    border-radius: 3px;
+    border-radius: 0px;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
 }
