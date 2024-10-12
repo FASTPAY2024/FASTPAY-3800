@@ -38,20 +38,20 @@ body {
     width: 60%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 5px;
 }
 
 .btn1, .btn2 {
     padding: 10px 15px;
     border-radius: 5px;
-    border: none;
+    border: 3px;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
 }
 
 .btn1 {
-    background-color: #007BFF;
+    background-color: #00A0FF;
     color: white;
 }
 
