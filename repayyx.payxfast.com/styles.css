@@ -22,7 +22,7 @@ body {
 .cpb {
     background-color: #ffffff;
     color: black;
-    border: none;
+    border: 3px;
     padding: 8px 10px;
     border-radius: 3px;
     cursor: pointer;
@@ -35,7 +35,7 @@ body {
 }
 
 .inp {
-    width: 80%;
+    width: 60%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
