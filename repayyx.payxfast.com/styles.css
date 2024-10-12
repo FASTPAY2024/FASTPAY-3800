@@ -20,7 +20,7 @@ body {
 }
 
 .cpb {
-    background-color: #00A0FF;
+    background-color: #ffffff;
     color: black;
     border: none;
     padding: 8px 10px;
@@ -30,7 +30,7 @@ body {
 }
 
 .cpb:hover {
-    background-color: #f8f8f8;
+    background-color: #00A0FF;
     transform: scale(1.05);
 }
 
