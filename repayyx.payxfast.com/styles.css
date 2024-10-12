@@ -21,7 +21,7 @@ body {
 
 .cpb {
     background-color: #ffffff;
-    color: black;
+    color: blue;
     border: 3px;
     padding: 8px 10px;
     border-radius: 3px;
@@ -30,7 +30,7 @@ body {
 }
 
 .cpb:hover {
-    background-color: #00A0FF;
+    background-color: #ffffff;
     transform: scale(1.05);
 }
 
