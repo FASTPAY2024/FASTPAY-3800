@@ -1,12 +1,12 @@
 function copyAmount() {
-    const amount = "₹ 5000"; // Feel free to make this dynamic
+    const amount = document.querySelector('.amount').textContent;
     navigator.clipboard.writeText(amount).then(() => {
         showModal('copyModal', "Amount copied: " + amount);
     });
 }
 
 function copyUPI() {
-    const upi = "unicashofficial02@okhdfcbank"; // Feel free to make this dynamic
+    const upi = document.querySelector('.upi-display').textContent;
     navigator.clipboard.writeText(upi).then(() => {
         showModal('copyModal', "UPI ID copied: " + upi);
     });
