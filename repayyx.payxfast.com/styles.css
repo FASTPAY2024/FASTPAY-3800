@@ -24,6 +24,10 @@ body {
     margin: 15px 0;
 }
 
+.cpb, .btn1, .btn2 {
+    transition: background 0.3s, transform 0.3s;
+}
+
 .cpb {
     background-color: #ffffff;
     color: DodgerBlue;
@@ -31,8 +35,7 @@ body {
     padding: 6px 10px;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 10px; /* Space between buttons */
-    transition: background 0.3s, transform 0.3s;
+    margin-left: 10px;
 }
 
 .cpb:hover {
@@ -46,15 +49,6 @@ body {
     margin-bottom: 20px;
     border: 2px solid #ccc;
     border-radius: 4px;
-}
-
-.btn1, .btn2 {
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin: 5px; /* Space buttons */
-    transition: background 0.3s, transform 0.3s;
 }
 
 .btn1 {
