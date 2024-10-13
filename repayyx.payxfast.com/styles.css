@@ -1,90 +1,136 @@
-:root {
-  --primary-color: #FFFFFF;
-  --button-width: 300px;
-  --button-height: 50px;
-  --logo-width: 400px;
-  --logo-height: 50px;
-  --border-radius: 4px;
-  --box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.30), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-  --font-size: 16px;
-  --font-family: Arial, sans-serif;
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
 }
 
-.login-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+.box1 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 450px; /* Limits width for larger screens */
+    width: 90%; /* Responsive width */
+    transition: transform 0.3s;
 }
 
-.login-form {
-  background-color: var(--primary-color);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  padding: 24px;
-  width: 100%;
-  max-width: 400px;
-  margin: 40px auto;
+.payment-methods {
+    margin: 15px 0;
 }
 
-.login-form button {
-  background-color: #E94235;
-  border: 0;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  color: var(--primary-color);
-  cursor: pointer;
-  font-size: var(--font-size);
-  font-family: var(--font-family);
-  height: var(--button-height);
-  outline: 0;
-  padding: 9px 24px;
-  width: var(--button-width);
-  transition: all 0.3s ease;
+.cpb {
+    background-color: #ffffff;
+    color: DodgerBlue;
+    border: 2px solid #68c0ff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Space between buttons */
+    transition: background 0.3s, transform 0.3s;
 }
 
-.login-form button:hover {
-  background-color: #FFC080;
+.cpb:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
 }
 
-.logo-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 24px;
+.inp {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
 }
 
-.logo-container img {
-  max-width: var(--logo-width);
-  max-height: var(--logo-height);
-  object-fit: contain;
+.btn1, .btn2 {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 5px; /* Space buttons */
+    transition: background 0.3s, transform 0.3s;
 }
 
-@media (max-width: 767px) {
-  :root {
-    --button-width: 100%;
-    --logo-width: 300px;
-    --logo-height: 40px;
-  }
-
-  .login-form {
-    padding: 16px;
-  }
-
-  .login-form button {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
+.btn1 {
+    background-color: #00A0FF;
+    color: white;
 }
 
-@media (max-width: 480px) {
-  .login-form {
-    padding: 12px;
-  }
+.btn1:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
 
-  .login-form button {
-    font-size: 12px;
-    padding: 4px 8px;
-  }
+.btn2 {
+    background-color: #FF8000;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #FF6700;
+    transform: scale(1.05);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    animation: fadeIn 0.5s; /* Animation for modal appearance */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 500px) {
+    .box1 {
+        padding: 15px; /* Adjusted padding */
+    }
+
+    .btn1, .btn2, .cpb {
+        width: 100%;
+        font-size: 12px; /* Smaller font size for mobile */
+        margin: 5px 0;
+    }
+
+    .inp {
+        width: 100%;
+    }
 }
