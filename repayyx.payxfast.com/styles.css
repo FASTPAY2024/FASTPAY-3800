@@ -11,6 +11,7 @@ h2 {
   font-family: Tahoma;
   font-size: 90%;
 }
+
 .box1 {
     background-color: #ffffff;
     padding: 20px;
@@ -30,7 +31,7 @@ h2 {
     background-color:  #ffffff;
     color:DodgerBlue;
     border: 4px;
-    padding: 6px 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     border-color:#68c0ff;
     cursor:pointer;
@@ -38,21 +39,21 @@ h2 {
 }
 
 .cpb:hover {
-    background-color: #fff;
+    background-color: #f8f8f8;
     transform: scale(1.05);
 }
 
 .inp {
-    width: 100%;
+    width: 80%;
     padding: 10px;
-    margin-bottom: 20px;
-    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
     border-radius: 0px;
 }
 
 .btn1, .btn2 {
     padding: 10px 15px;
-    border-radius: 50px;
+    border-radius: 5px;
     border: 2px;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
@@ -94,7 +95,7 @@ h2 {
     background-color:#FFFFFF;
     margin: 15% auto;
     padding: 20px;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     width: 80%;
     max-width: 400px;
     border-radius: 10px;
@@ -103,14 +104,14 @@ h2 {
 
 .modal-text {
     color: #000000;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
 }
 
 .close {
     color: white;
     float: right;
-    font-size: 12px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -147,69 +148,69 @@ h2 {
     background-size: contain;
     
     border: 0;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.30), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
     outline: 0;
     padding: 9px 24px;
     
-    width: 450px0px;
+    width: 450px;
     min-width: 100px;
-    height: 40px; 
-    min-height: 30px;
+    height: 60px; 
+    min-height: 40px;
 }
 
     #upi {
-    width: 450px0px;
+    width: 440px;
     height: 50px; 
 }
 
 .logo-container {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     background-color: #fff;
     background-origin: content-box;
     background-repeat: no-repeat;
     background-size: contain;
     
     border: 0;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.30), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
     outline: 0;
-    padding: 8px 24px;
+    padding: 9px 24px;
     
-    width: 450px0px;
+    width: 450px;
     min-width: 100px;
-    height: 40px; 
-    min-height: 30px;
+    height: 60px; 
+    min-height: 40px;
 }
 
 #paytm {
-    width: 420px0px;  
-    height: 40px; 
+    width: 440px;  
+    height: 50px; 
 }
 .logo-containers {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     background-color: #fff;
     background-origin: content-box;
     background-repeat: no-repeat;
     background-size: contain;
     
     border: 0;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.30), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
     outline: 0;
-    padding: 8px 24px;
+    padding: 9px 24px;
     
-    width: 450px0px;
+    width: 450px;
     min-width: 100px;
-    height: 40px; 
-    min-height: 30px;
+    height: 60px; 
+    min-height: 40px;
 }
 
 #phonepe {
-    width: 450px0px;  
-    height: 60px; 
+    width: 440px;  
+    height: 50px; 
 }
 
 
@@ -219,9 +220,9 @@ h2 {
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .box1 {
-        padding: 420px;
+        padding: 15px;
     }
 
     .btn1, .btn2, .cpb {
