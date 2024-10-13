@@ -9,7 +9,7 @@ body {
 h2 {
   color: black;
   font-family: Tahoma;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 .box1 {
@@ -52,7 +52,7 @@ h2 {
 }
 
 .btn1, .btn2 {
-    padding: 10px 15px;
+    padding: 30px 25px;
     border-radius: 5px;
     border: 2px;
     cursor: pointer;
@@ -140,12 +140,11 @@ h2 {
   min-height: 40px;
 }
 .upi-logo {
-    text-align: center;
-    margin-bottom: 4px;
-    background-color: #fff;
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-color: #FFFFFF;
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
     
     border: 0;
     border-radius: 4px;
@@ -165,12 +164,11 @@ h2 {
 }
 
 .logo-container {
-    text-align: center;
-    margin-bottom: 4px;
-    background-color: #fff;
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-color: #FFFFFF;
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
     
     border: 0;
     border-radius: 4px;
@@ -189,12 +187,12 @@ h2 {
     height: 50px; 
 }
 .logo-containers {
-    text-align: center;
-    margin-bottom: 4px;
-    background-color: #fff;
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    background-size: contain;
+  text-align: center;
+  background-color: #FFFFFF;
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
     
     border: 0;
     border-radius: 4px;
