@@ -108,7 +108,7 @@ body {
     height: 60px; 
 }
 .inp {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 2px solid #ccc;
@@ -184,7 +184,7 @@ body {
 
     .btn1, .btn2, .cpb {
         width: 100%;
-        font-size: 12px; /* Smaller font size for mobile */
+        font-size: 30px; /* Smaller font size for mobile */
         margin: 5px 0;
     }
 
