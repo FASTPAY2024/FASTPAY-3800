@@ -9,27 +9,40 @@
 </head>
 <body>
     <div class="box1">
-        <h2>Amount: ₹ 5000 <button class="cpb" onclick="copyAmount()">COPY</button></h2>
+        <h2>Amount: <span class="amount">₹ 5000</span> 
+            <button class="cpb" onclick="copyAmount()" title="Copy Amount">COPY</button>
+        </h2>
         
-        <h2>VPA/UPI: <span class="upi-display">unicashofficial02@okhdfcbank</span> <button class="cpb" onclick="copyUPI()">COPY</button></h2>
+        <h2>VPA/UPI: <span class="upi-display">unicashofficial02@okhdfcbank</span> 
+            <button class="cpb" onclick="copyUPI()" title="Copy UPI">COPY</button>
+        </h2>
 
         <h2>Name: MANTU DAS</h2>
 
-        <h4 style="color:#68c0ff;">↓ Select payment method and pay ↓</h4>
-        <div class="payment-methods">
-            <button class="googlepay" title="Google Pay"></button>
-            <div class="logo-container">
-                <!-- Paytm SVG Logo -->
-                <svg /* Paytm SVG content here */></svg>
-            </div>
-            <div class="logo-containers">
-                <!-- PhonePe SVG Logo -->
-                <svg /* PhonePe SVG content here */></svg>
-            </div>
-            <div class="upi-logo">
-                <svg /* UPI SVG content here */></svg>
-            </div>
-        </div>
+      <div class="payment-methods">
+    <button class="googlepay" title="Google Pay">
+        <!-- Google Pay SVG Logo -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+            <!-- SVG Path for Google Pay -->
+        </svg>
+    </button>
+    <div class="logo-container">
+        <!-- Paytm SVG Logo -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+            <!-- SVG Path for Paytm -->
+        </svg>
+    </div>
+    <div class="logo-containers">
+        <!-- PhonePe SVG Logo -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <!-- SVG Path for PhonePe -->
+        </svg>
+    </div>
+    <div class="upi-logo">
+        <svg /* UPI SVG content here */></svg>
+    </div>
+</div>
+
 
         <h4 style="color:#68c0ff;">↓ Fill the UTR number after you have done the payment ↓</h4>
         <form method="post" onsubmit="return false;">
