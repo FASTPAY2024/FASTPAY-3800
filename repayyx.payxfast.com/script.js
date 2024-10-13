@@ -1,49 +1,38 @@
 function copyAmount() {
-    const amount = '₹ 3800';
+    const amount = "₹ 5000"; // Feel free to make this dynamic
     navigator.clipboard.writeText(amount).then(() => {
-        showPopup('copyModal', 'Amount copied to clipboard!');
-    }).catch(err => {
-        showPopup('copyModal', 'Failed to copy amount!');
+        showModal('copyModal', "Amount copied: " + amount);
     });
 }
 
 function copyUPI() {
-    const upi = '8974034614@upi';
+    const upi = "unicashofficial02@okhdfcbank"; // Feel free to make this dynamic
     navigator.clipboard.writeText(upi).then(() => {
-        showPopup('copyModal', 'UPI copied to clipboard!');
-    }).catch(err => {
-        showPopup('copyModal', 'Failed to copy UPI!');
+        showModal('copyModal', "UPI ID copied: " + upi);
     });
 }
 
-function showPopup(modalId, message) {
+function showModal(modalId, message) {
     document.getElementById(modalId).style.display = "block";
-    document.getElementById('copyMessage').innerText = message;
+    if (message) {
+        document.getElementById("copyMessage").innerText = message;
+    }
 }
 
 function closeModal(modalId) {
     document.getElementById(modalId).style.display = "none";
 }
 
-document.getElementById('submitUtrButton').onclick = function() {
-    document.getElementById('utrModal').style.display = "block";
-};
+document.getElementById("submitUtrButton").onclick = function() {
+    showModal('utrModal');
+}
 
-document.getElementById('confirmButton').onclick = function() {
-    const utrValue = document.getElementById('utrInput').value;
-    if (utrValue) {
-        alert('UTR submitted: ' + utrValue);
-        closeModal('utrModal');
-    } else {
-        alert('Please enter a UTR number before submitting.');
-    }
-};
+document.getElementById("confirmButton").onclick = function() {
+    alert("UTR submitted successfully!");
+    closeModal('utrModal');
+}
 
-// Close modal when clicking outside
-window.onclick = function(event) {
-    if (event.target == document.getElementById('copyModal')) {
-        closeModal('copyModal');
-    } else if (event.target == document.getElementById('utrModal')) {
-        closeModal('utrModal');
-    }
-};
+// Info button
+document.getElementById("infoButton").onclick = function() {
+    showModal('infoModal');
+}
