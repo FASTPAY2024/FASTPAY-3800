@@ -5,7 +5,10 @@ body {
     padding: 0;
     height: 0vh; /* Full height */
 }
-
+img {
+  max-width: 50%;
+  height: auto;
+}
 .box1 {
     background-color: #ffffff;
     padding: 20px;
