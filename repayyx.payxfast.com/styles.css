@@ -59,15 +59,16 @@ body {
 
 button {
   padding: 6px 12px;
-  background-color: #e0e0e0;
-  color: #333;
-  border: none;
+  background-color: #f8f8f8;
+  color: DeepSkyBlue;
+  border: 1px solid #00BFFF;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #ccc;
+  background-color: #f8f8f8;
+  transform: scale(1.05);
 }
 
 /* Section Title */
@@ -86,12 +87,12 @@ button:hover {
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 8px 0;
+  margin-canter: 8px 0;
 }
 
 .payment-options img {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   margin-right: 10px;
 }
 
@@ -133,6 +134,17 @@ button:hover {
   font-size: 1em;
   margin-top: 10px;
 }
+.submit-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.error-btn:hover {
+    background-color: #FF8000;
+    transform: scale(1.05);
+}
+
+
 
 /* Notification Popup */
 .notification {
