@@ -89,12 +89,12 @@ button:hover {
 .payment-options label {
   display: flex;
   align-items: center;
-  margin-canter: 8px 0;
+  margin-canter: 1px 0;
 }
 
 .payment-options img {
-  width: 15px;
-  height: 30px;
+  width: 30px;
+  height: 15px;
   align-items: center;
   margin-canter: 10px 0;
 }
