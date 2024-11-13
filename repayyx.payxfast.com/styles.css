@@ -11,7 +11,7 @@ body {
     width: auto;
     background-color: #FDFEFE;
     margin: auto;
-    padding: 20px;
+    padding: 15px;
 
 /* Container */
 .container {
@@ -98,6 +98,7 @@ hr {
 .payment-options img {
   width: 15px;
   height: 30px;
+  align-items: center;
   margin-right:10px;
   margin-left:10px;
 }
