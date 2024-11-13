@@ -151,13 +151,13 @@ hr {
 
 /* Notification Popup */
 .notification {
-  width: auto;
+  width: 100%;
   position: fixed;
   top: 10px;
   left: 50%;
   right: 50%;
   text-align: center;
-  transform: translateX(-80%);
+  transform: translateX(-50%);
   background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
