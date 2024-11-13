@@ -6,15 +6,6 @@ body {
     background-color: #FDFEFE;
     margin: auto;
     padding: 20px;
-}
-hr {
-    border: 0.1px  solid Gainsboro;
-}
-
-img {
-  margin-left:20%;
-  margin-right: 10%;
-}
 
 /* Container */
 .container {
@@ -65,8 +56,10 @@ button {
   background-color: #f8f8f8;
   color: DeepSkyBlue;
   border: 1px solid #00BFFF;
+  padding: 1px 1px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
 }
 
 button:hover {
@@ -97,13 +90,14 @@ hr {
 }
 
 img {
-  margin-left:20%;
+  
   margin-right: 10%;
 }
 .payment-options img {
   width: 15px;
   height: 30px;
   margin-right:10px;
+  margin-left:10px;
 }
 
 /* UTR Instruction */
