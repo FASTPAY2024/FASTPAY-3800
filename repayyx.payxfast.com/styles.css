@@ -35,7 +35,7 @@ body {
 
 
 .header .icons i {
-  margin-left: 10px;
+  margin-left: 3px;
 }
 
 /* Content */
@@ -47,7 +47,7 @@ body {
 }
 
 .info p {
-  margin: 8px 0;
+  margin: 3px 0;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -96,12 +96,12 @@ button:hover {
   width: 30px;
   height: 15px;
   align-items: center;
-  margin-canter: 10px 0;
+  margin-canter: 20px 0;
 }
 
 img {
-  margin-left:40%;
-  margin-right: 20%;
+  margin-left:60%;
+  margin-right: 30%;
 }
 
 hr {
@@ -110,7 +110,7 @@ hr {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.1em;
   margin: 10px 0;
 }
 
