@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size:6px;
   font-family:-apple-system-font, helvetica neue, arial, sans-serif
 }
 
@@ -78,7 +77,7 @@ button:hover {
 .section-title {
   color: #007bff;
   font-size: 0.1em;
-  margin-top: 10px;
+  margin-top: 1px;
   display: inline-block;
 }
 
