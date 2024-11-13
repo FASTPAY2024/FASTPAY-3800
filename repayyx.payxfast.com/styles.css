@@ -83,7 +83,7 @@ button:hover {
 
 /* Payment Options */
 .payment-options {
-  margin: 15px 0;
+  margin: 1px 0;
 }
 
 .payment-options label {
@@ -93,15 +93,15 @@ button:hover {
 }
 
 .payment-options img {
-  width: 20px;
+  width: 15px;
   height: 30px;
   align-items: center;
   margin-canter: 10px 0;
 }
 
 img {
-  margin-left:20%;
-  margin-right: 10%;
+  margin-left:40%;
+  margin-right: 20%;
 }
 
 hr {
