@@ -76,27 +76,27 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.1em;
-  margin-top: 1px;
+  font-size: 0.6em;
+  margin-top: 5px;
   display: inline-block;
 }
 
 /* Payment Options */
 .payment-options {
-  margin: 1px 0;
+  margin: 5px 0;
 }
 
 .payment-options label {
   display: flex;
   align-items: center;
-  margin-canter: 1px 0;
+  margin-canter: 0.1px 0;
 }
 
 .payment-options img {
   width: 30px;
   height: 15px;
   align-items: center;
-  margin-canter: 20px 0;
+  margin-canter: 10px 0;
 }
 
 img {
@@ -105,19 +105,19 @@ img {
 }
 
 hr {
-    border: 0.1px solid Gainsboro;
+    border: 0.01px solid Gainsboro;
 }
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.1em;
+  font-size: 0.6em;
   margin: 10px 0;
 }
 
 #utr {
   width: 100%;
-  padding: 5px;
-  border: 1px solid #ddd;
+  padding: 3px;
+  border: 0.5px solid #ddd;
   border-radius: 5px;
   margin-bottom: 5px;
   margin: center;
