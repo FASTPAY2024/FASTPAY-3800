@@ -6,10 +6,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-hr {
-    border: 0.1px  solid Gainsboro;
-}
-
 body {
     height: auto;
     width: auto;
@@ -76,7 +72,9 @@ button:hover {
   background-color: #f8f8f8;
   transform: scale(1.05);
 }
-
+.hr {
+    border: 0.1px  solid Gainsboro;
+}
 /* Section Title */
 .section-title {
   color: #007bff;
