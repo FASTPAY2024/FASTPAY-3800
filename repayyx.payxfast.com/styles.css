@@ -92,10 +92,6 @@ button:hover {
   margin-canter: 8px 0;
 }
 
-hr {
-    border: 0.1px  solid Gainsboro;
-}
-
 .payment-options img {
   width: 20px;
   height: 30px;
@@ -103,6 +99,14 @@ hr {
   margin-canter: 10px 0;
 }
 
+img {
+  margin-left:20%;
+  margin-right: 10%;
+}
+
+hr {
+    border: 0.1px solid Gainsboro;
+}
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
