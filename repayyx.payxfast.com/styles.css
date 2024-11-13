@@ -108,7 +108,7 @@ hr {
   padding: 5px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   margin: center;
   font-size: 1em;
 }
@@ -116,7 +116,7 @@ hr {
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height: 50px;
+  height: 50%;
   padding: 10px;
   background-color: #007bff;
   color: white;
@@ -128,7 +128,7 @@ hr {
 
 .error-btn {
   width: 100%;
-  height: 50px;
+  height: 50%;
   padding: 10px;
   background-color: #ff5722;
   color: white;
