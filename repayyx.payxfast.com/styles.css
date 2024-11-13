@@ -18,7 +18,7 @@ body {
   width: auto;
   height: auto;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 20px;
   text-align: left;
@@ -30,17 +30,17 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 2px;
+  font-size: 0.1px;
 }
 
 
 .header .icons i {
-  margin-left: 2px;
+  margin-left: 0.1px;
 }
 
 /* Content */
 .content h1 {
-  font-size: 2px;
+  font-size: 0.1px;
   margin-bottom: 20px;
   color: #333;
   text-align: left;
