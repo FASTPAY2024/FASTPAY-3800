@@ -30,7 +30,7 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.9em;
+  font-size: 0.1em;
 }
 
 
@@ -40,7 +40,7 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 1.2em;
+  font-size: 0.1em;
   margin-bottom: 20px;
   color: #333;
   text-align: left;
@@ -76,7 +76,7 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.1em;
   margin-top: 20px;
   display: inline-block;
 }
@@ -91,16 +91,16 @@ button:hover {
   align-items: center;
   margin-canter: 8px 0;
 }
+
 hr {
     border: 0.1px  solid Gainsboro;
 }
 
 .payment-options img {
-  width: 15px;
+  width: 20px;
   height: 30px;
   align-items: center;
-  margin-right:10px;
-  margin-left:10px;
+  margin-canter: 10px 0;
 }
 
 /* UTR Instruction */
