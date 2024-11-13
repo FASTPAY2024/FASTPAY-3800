@@ -1,16 +1,17 @@
 
 body {
   font-family: Arial,sans-serif;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-color: #FDFEFE;
-    margin: 15px;
+    margin: auto;
     padding: 20px;
 }
 
 /* Container */
 .container {
   width: auto;
+  height: auto;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
