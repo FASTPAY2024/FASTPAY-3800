@@ -161,7 +161,7 @@ hr {
   transform: translateX(-10%);
   background-color: #4CAF50;
   color: white;
-  padding: 35px 70px;
+  padding: 0px 0px;
   border-radius: 5px;
   display: none;
   animation: slideIn 0.5s ease, fadeOut 0.5s ease 2.5s;
@@ -180,5 +180,3 @@ hr {
   from { opacity: 1; }
   to { opacity: 0; }
 }
-@media only screen and (max-width: 1000px) and 
-(max-height: 1000px)
