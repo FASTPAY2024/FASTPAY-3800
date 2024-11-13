@@ -6,13 +6,18 @@
   font-family: 'Roboto', sans-serif;
 }
 
+hr {
+    border: 0.1px  solid Gainsboro;
+}
+
 body {
-  font-family: Arial,sans-serif;
     height: auto;
     width: auto;
     background-color: #FDFEFE;
-    margin: auto;
-    padding: 20px;
+    display: flex;
+    justify-content:top;
+    align-items: auto;
+}
 
 /* Container */
 .container {
@@ -33,7 +38,6 @@ body {
   color: #333;
   font-size: 0.9em;
 }
-
 
 .header .icons i {
   margin-left: 10px;
@@ -59,11 +63,10 @@ body {
 }
 
 button {
-  padding: 12px 24px;
+  padding: 20px 40px;
   background-color: #f8f8f8;
   color: DeepSkyBlue;
   border: 1px solid #00BFFF;
-  padding: 1px 1px;
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s, transform 0.3s;
@@ -89,18 +92,14 @@ button:hover {
 
 .payment-options label {
   display: flex;
-  align-items: center;
+  align-items: left;
   margin-canter: 8px 0;
-}
-hr {
-    border: 0.1px  solid Gainsboro;
 }
 
 .payment-options img {
   width: 15px;
   height: 30px;
-  margin-right:10px;
-  margin-left:10px;
+  margin-right: 10px;
 }
 
 /* UTR Instruction */
@@ -116,7 +115,6 @@ hr {
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 10px;
-  margin: center;
   font-size: 1em;
 }
 
@@ -160,7 +158,7 @@ hr {
 .notification {
   width: 100%;
   position: fixed;
-  top: 10px;
+  top: 20px;
   left: 50%;
   right: 50%;
   text-align: center;
