@@ -105,11 +105,11 @@ hr {
 
 #utr {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  margin-bottom: 10px;
-  margin: auto;
+  margin-bottom: 100px;
+  margin: center;
   font-size: 1em;
 }
 
@@ -160,8 +160,8 @@ hr {
   transform: translateX(-50%);
   background-color: #4CAF50;
   color: white;
-  padding: 0px 0px;
-  border-radius: 5px;
+  padding: 5px 10px;
+  border-radius: 0px;
   display: none;
   animation: slideIn 0.5s ease, fadeOut 0.5s ease 2.5s;
 }
