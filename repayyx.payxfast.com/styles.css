@@ -3,20 +3,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'var', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
+  font-family: Arial,sans-serif;
     height: auto;
     width: auto;
     background-color: #FDFEFE;
     margin: auto;
-    padding: 15px;
+    padding: 20px;
+}
 
 /* Container */
 .container {
   width: auto;
-  height: auto;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -30,9 +31,8 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.1em;
+  font-size: 0.9em;
 }
-
 
 .header .icons i {
   margin-left: 10px;
@@ -40,7 +40,7 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.1em;
+  font-size: 1.2em;
   margin-bottom: 20px;
   color: #333;
   text-align: left;
@@ -58,55 +58,43 @@ body {
 }
 
 button {
-  padding: 12px 24px;
-  background-color: #f8f8f8;
-  color: DeepSkyBlue;
-  border: 1px solid #00BFFF;
-  padding: 1px 1px;
+  padding: 6px 12px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
 }
 
 button:hover {
-  background-color: #f8f8f8;
-  transform: scale(1.05);
+  background-color: #ccc;
 }
 
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.1em;
+  font-size: 0.9em;
   margin-top: 20px;
   display: inline-block;
 }
 
 /* Payment Options */
 .payment-options {
-  margin: 1px 0;
+  margin: 15px 0;
 }
 
 .payment-options label {
   display: flex;
-  align-items: center;
-  margin-canter: 1px 0;
+  align-items: left;
+  margin: 8px 0;
 }
 
 .payment-options img {
-  width: 30px;
-  height: 15px;
-  align-items: center;
-  margin-canter: 10px 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
 
-img {
-  margin-left:40%;
-  margin-right: 20%;
-}
-
-hr {
-    border: 0.1px solid Gainsboro;
-}
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
@@ -116,63 +104,49 @@ hr {
 
 #utr {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 10px;
-  margin: center;
   font-size: 1em;
 }
 
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height: 50%;
   padding: 10px;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 45px;
+  border-radius: 5px;
   font-size: 1em;
   margin-top: 10px;
 }
 
 .error-btn {
   width: 100%;
-  height: 50%;
   padding: 10px;
   background-color: #ff5722;
   color: white;
   border: none;
-  border-radius: 45px;
+  border-radius: 5px;
   font-size: 1em;
   margin-top: 10px;
 }
-.submit-btn:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-.error-btn:hover {
-    background-color: #FF8000;
-    transform: scale(1.05);
-}
-
-
 
 /* Notification Popup */
 .notification {
   width: 100%;
   position: fixed;
-  top: 10px;
+  top: 20px;
   left: 50%;
   right: 50%;
   text-align: center;
   transform: translateX(-50%);
   background-color: #4CAF50;
   color: white;
-  padding: 5px 10px;
-  border-radius: 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
   display: none;
   animation: slideIn 0.5s ease, fadeOut 0.5s ease 2.5s;
 }
@@ -181,11 +155,11 @@ hr {
   background-color: #FF5722;
 }
 
-
 @keyframes slideIn {
   from { opacity: 0; top: 10px; }
   to { opacity: 1; top: 20px; }
 }
+
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
