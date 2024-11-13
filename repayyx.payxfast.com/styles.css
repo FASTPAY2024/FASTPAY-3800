@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fffff;
+  background-color: #f5f5f5;
   font-family: Arial,sans-serif;
   display: none;
   justify-content: top;
@@ -55,7 +55,7 @@ body {
 }
 
 .info span {
-  color: #555;
+  color: #f5f5f5;
 }
 
 button {
