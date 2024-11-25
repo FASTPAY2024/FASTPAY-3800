@@ -59,7 +59,7 @@ body {
 }
 
 .button {
-  padding: 6px 12px;
+  padding: 20px 40px;
   background-color: DeepSkyBlue;
   border: 1px solid #00BFFF;
   padding: 0px 0px;
@@ -69,7 +69,7 @@ body {
 }
 .button:hover {
   background-color: #f8f8f8;
-  transform: scale(1.05);
+  animation: scale(1.05);
 }
 
 /* Section Title */
@@ -130,7 +130,7 @@ body {
 }
 .submit-btn:hover {
   background-color: #0056b3;
-  transform: scale(1.05);
+  animation: scale(1.05);
 }
 
 .error-btn {
@@ -145,7 +145,7 @@ body {
 }
 .error-btn:hover {
     background-color: #FF8000;
-    transform: scale(1.05);
+    animation: scale(1.05);
 }
 
 /* Notification Popup */
