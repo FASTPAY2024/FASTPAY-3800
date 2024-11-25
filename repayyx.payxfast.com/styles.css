@@ -13,11 +13,7 @@ body {
   background-color: #FDFEFE;
   margin: auto;
   padding: 20px;
-}
-hr {
-  border: 0.0.0.1px;
-  background-color: solid Gainsboro;
-  width: 100%;
+  font-size: 0.1em;
 }
 
 /* Container */
@@ -99,7 +95,11 @@ hr {
   margin-left:20%;
   margin-right: 10%;
 }
-
+.hr {
+  border: 0.0.0.1px;
+  background-color: solid Gainsboro;
+  width: 100%;
+}
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
