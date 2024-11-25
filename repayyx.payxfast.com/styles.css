@@ -31,7 +31,7 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.5em;
+  font-size: 0.9em;
 }
 
 .header .icons i {
@@ -40,14 +40,14 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.1em;
-  margin-bottom: 0px;
+  font-size: 0.9em;
+  margin-bottom: 20px;
   color: #333;
   text-align: left;
 }
 
 .info p {
-  margin: 0px 0;
+  margin: 5px 0;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -58,13 +58,14 @@ body {
 }
 
 .info hr {
-  border: 0.1em;
+  border: 0.4em;
   background-color: solid Gainsboro;
   width: 100%;
 }
 
 .button {
-  padding: 40px 80px;
+  
+  padding: 1px 1px;
   background-color: #f8f8f8;
   border: 1px solid #00BFFF;
   padding: 0px 0px;
@@ -86,13 +87,13 @@ body {
 
 /* Payment Options */
 .payment-options {
-  margin: 20px 0;
+  margin: 5px 0;
 }
 
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 20px 0;
+  margin: 8px 0;
 }
 
 .payment-options img {
@@ -118,28 +119,30 @@ body {
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  padding: 40px;
+  padding: 20px;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   font-size: 1em;
   margin-top: 10px;
 }
+
 .submit-btn:hover {
   background-color: #0056b3;
 }
 
 .error-btn {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   background-color: #ff5722;
   color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   font-size: 0.6em;
-  margin-top: 1px;
+  margin-top: 10px;
 }
+
 .error-btn:hover {
   background-color: #FF8000;
 }
@@ -160,13 +163,16 @@ body {
   display: none;
   animation: slideIn 0.5s ease, fadeOut 0.5s ease 2.5s;
 }
+
 .notification.error {
   background-color: #FF5722;
 }
+
 @keyframes slideIn {
   from { opacity: 0; top: 10px; }
   to { opacity: 1; top: 20px; }
 }
+
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
