@@ -42,7 +42,7 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.9em;
+  font-size: 0.4em;
   margin-bottom: 20px;
   color: #333;
   text-align: left;
@@ -79,7 +79,7 @@ body {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.4em;
+  font-size: 0.9em;
   margin-top: 20px;
   display: inline-block;
 }
@@ -89,16 +89,10 @@ body {
   margin: 20px 0;
 }
 
-.hr {
-  border: 0.4em;
-  background-color: solid Gainsboro;
-  width: 100%;
-}
-
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 5px 0;
+  margin: 10px 20px;
 }
 
 .payment-options img {
