@@ -21,7 +21,7 @@ body {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 20px;
+  padding: 40px;
   text-align: left;
 }
 
@@ -57,7 +57,7 @@ body {
   color: #555;
 }
 
-.info hr {
+.hr {
   border: 0.4em;
   background-color: solid Gainsboro;
   width: 100%;
@@ -128,10 +128,6 @@ body {
   margin-top: 10px;
 }
 
-.submit-btn:hover {
-  background-color: #0056b3;
-}
-
 .error-btn {
   width: 100%;
   padding: 20px;
@@ -143,9 +139,6 @@ body {
   margin-top: 10px;
 }
 
-.error-btn:hover {
-  background-color: #FF8000;
-}
 
 /* Notification Popup */
 .notification {
