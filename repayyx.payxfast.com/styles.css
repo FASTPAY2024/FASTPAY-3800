@@ -13,7 +13,6 @@ body {
   background-color: #FDFEFE;
   margin: auto;
   padding: 20px;
-  font-size: 0.4em;
 }
 
 /* Container */
@@ -32,7 +31,7 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.3em;
+  font-size: 0.5em;
 }
 
 .header .icons i {
@@ -48,7 +47,7 @@ body {
 }
 
 .info p {
-  margin: 1px 0;
+  margin: 0px 0;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -58,8 +57,8 @@ body {
   color: #555;
 }
 
-.ingo hr {
-  border: 0.0.0.1px;
+.info hr {
+  border: 0.1em;
   background-color: solid Gainsboro;
   width: 100%;
 }
@@ -71,8 +70,8 @@ body {
   padding: 0px 0px;
   border-radius: 1px;
   cursor: pointer;
-  animation: background 0.3s, transform 0.3s;
 }
+
 .button:hover {
   background-color: #f8f8f8;
 }
@@ -80,7 +79,7 @@ body {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.1em;
+  font-size: 0.4em;
   margin-top: 20px;
   display: inline-block;
 }
@@ -93,7 +92,7 @@ body {
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 4px 0;
+  margin: 20px 0;
 }
 
 .payment-options img {
@@ -102,7 +101,7 @@ body {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.1em;
+  font-size: 0.4em;
   margin: 10px 0;
 }
 
@@ -110,9 +109,9 @@ body {
   width: 100%;
   padding: 10px;
   border: 0px solid #ccc;
-  border-radius: 0px;
-  margin-bottom: 0px;
-  font-size: 0.3em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
   margin-left: 10%;
 }
 
@@ -124,9 +123,8 @@ body {
   color: white;
   border: none;
   border-radius: 20px;
-  font-size: 0.6em;
+  font-size: 1em;
   margin-top: 10px;
-  animation: background 0.3s, transform 0.3s;
 }
 .submit-btn:hover {
   background-color: #0056b3;
@@ -140,11 +138,10 @@ body {
   border: none;
   border-radius: 20px;
   font-size: 0.6em;
-  margin-top: 10px;
-  animation: background 0.3s, transform 0.3s;
+  margin-top: 1px;
 }
 .error-btn:hover {
-    background-color: #FF8000;
+  background-color: #FF8000;
 }
 
 /* Notification Popup */
