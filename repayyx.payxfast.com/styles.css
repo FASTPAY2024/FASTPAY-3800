@@ -15,7 +15,8 @@ body {
     padding: 20px;
 }
 .hr {
-  border: 0.1px  solid Gainsboro;
+  border: 0.0.1em;
+  background-color: solid Gainsboro;
 }
 
 /* Container */
@@ -34,7 +35,7 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.9em;
+  font-size: 0.1em;
 }
 
 .header .icons i {
@@ -60,23 +61,26 @@ body {
   color: #555;
 }
 
-button {
+.button {
   padding: 6px 12px;
-  background-color: #e0e0e0;
-  color: #333;
-  border: none;
+  background-color: DeepSkyBlue;
+  border: 1px solid #00BFFF;
+  padding: 1px 1px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
 }
 
-button:hover {
-  background-color: #ccc;
+.button:hover {
+  background-color: #f8f8f8;
+  transform: scale(1.05);
 }
 
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.1em;
   margin-top: 20px;
   display: inline-block;
 }
@@ -93,22 +97,23 @@ button:hover {
 }
 
 .payment-options img {
-  margin-right: 10px;
+  margin-left:20%;
+  margin-right: 10%;
 }
 
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.1em;
   margin: 10px 0;
 }
 
 #utr {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 0px;
   font-size: 1em;
 }
 
@@ -119,9 +124,13 @@ button:hover {
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 1em;
   margin-top: 10px;
+}
+.submit-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
 
 .error-btn {
@@ -130,9 +139,13 @@ button:hover {
   background-color: #ff5722;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 1em;
   margin-top: 10px;
+}
+.error-btn:hover {
+    background-color: #FF8000;
+    transform: scale(1.05);
 }
 
 /* Notification Popup */
@@ -151,16 +164,13 @@ button:hover {
   display: none;
   animation: slideIn 0.5s ease, fadeOut 0.5s ease 2.5s;
 }
-
 .notification.error {
   background-color: #FF5722;
 }
-
 @keyframes slideIn {
   from { opacity: 0; top: 10px; }
   to { opacity: 1; top: 20px; }
 }
-
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
