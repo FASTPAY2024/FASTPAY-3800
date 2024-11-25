@@ -13,7 +13,7 @@ body {
   background-color: #FDFEFE;
   margin: auto;
   padding: 20px;
-  font-size: 0.1em;
+  font-size: 0.4em;
 }
 
 /* Container */
@@ -32,7 +32,7 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.1em;
+  font-size: 0.3em;
 }
 
 .header .icons i {
@@ -42,13 +42,13 @@ body {
 /* Content */
 .content h1 {
   font-size: 0.1em;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: #333;
   text-align: left;
 }
 
 .info p {
-  margin: 8px 0;
+  margin: 1px 0;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -58,18 +58,23 @@ body {
   color: #555;
 }
 
+.ingo hr {
+  border: 0.0.0.1px;
+  background-color: solid Gainsboro;
+  width: 100%;
+}
+
 .button {
-  padding: 20px 40px;
-  background-color: DeepSkyBlue;
+  padding: 40px 80px;
+  background-color: #f8f8f8;
   border: 1px solid #00BFFF;
   padding: 0px 0px;
   border-radius: 1px;
   cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
+  animation: background 0.3s, transform 0.3s;
 }
 .button:hover {
   background-color: #f8f8f8;
-  animation: scale(1.05);
 }
 
 /* Section Title */
@@ -82,23 +87,17 @@ body {
 
 /* Payment Options */
 .payment-options {
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 8px 0;
+  margin: 4px 0;
 }
 
 .payment-options img {
   margin-left:20%;
-  margin-right: 10%;
-}
-.payment-options hr {
-  border: 0.0.0.1px;
-  background-color: solid Gainsboro;
-  width: 100%;
 }
 /* UTR Instruction */
 .utr-instruction {
@@ -114,7 +113,7 @@ body {
   border-radius: 0px;
   margin-bottom: 0px;
   font-size: 0.3em;
-  margin-right: 5%;
+  margin-left: 10%;
 }
 
 /* Submit Button */
@@ -127,25 +126,25 @@ body {
   border-radius: 20px;
   font-size: 0.6em;
   margin-top: 10px;
+  animation: background 0.3s, transform 0.3s;
 }
 .submit-btn:hover {
   background-color: #0056b3;
-  animation: scale(1.05);
 }
 
 .error-btn {
   width: 100%;
-  padding: 40px;
+  padding: 30px;
   background-color: #ff5722;
   color: white;
   border: none;
   border-radius: 20px;
   font-size: 0.6em;
   margin-top: 10px;
+  animation: background 0.3s, transform 0.3s;
 }
 .error-btn:hover {
     background-color: #FF8000;
-    animation: scale(1.05);
 }
 
 /* Notification Popup */
