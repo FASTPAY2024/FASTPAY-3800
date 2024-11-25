@@ -14,7 +14,7 @@ body {
   margin: auto;
   padding: 20px;
 }
-.hr {
+hr {
   border: 0.0.1em;
   background-color: solid Gainsboro;
   width: 100%;
