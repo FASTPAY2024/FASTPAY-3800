@@ -46,6 +46,8 @@ body {
   font-size: 1.2em;
   margin-bottom: 20px;
   margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
   color: #333;
   text-align: right;
 }
@@ -61,15 +63,6 @@ body {
   color: #555;
   font-size: 0.7em;
 }
-
-.info strong {
-  color: #555;
-  font-size: 0.7em;
-  margin-bottom: 20px;
-  color: #333;
-  text-align: left;
-}
-
 
 .button {
   padding: 10px 20px;
