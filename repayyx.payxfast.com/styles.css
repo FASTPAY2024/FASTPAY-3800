@@ -43,14 +43,14 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.1em;
+  font-size: 0.7em;
   margin-bottom: 20px;
   color: #333;
   text-align: left;
 }
 
 .info p {
-  margin: 0px 20px;
+  margin: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -61,10 +61,17 @@ body {
   font-size: 0.7em;
 }
 
+.info strong {
+  color: #555;
+  font-size: 0.7em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+}
 
 
 .button {
-  padding: 20px 40px;
+  padding: 10px 20px;
   background-color: #FDFEFE;
   color:DeepSkyBlue;
   border: 1px solid #00BFFF;
@@ -87,13 +94,13 @@ body {
 /* Payment Options */
 .payment-options {
   margin: 20px 0;
-  border-inline-height: thin;
 }
 
 .payment-options label {
   display: flex;
   align-items: left;
   margin: 15px 10px;
+  border-inline-height: 1px thin;
 }
 
 .payment-options img {
@@ -118,7 +125,7 @@ body {
 
 /* Submit Button */
 .submit-btn {
-  width: 100%;
+  width: 90%;
   padding: 20px;
   background-color: #007bff;
   color: white;
@@ -129,7 +136,7 @@ body {
 }
 
 .error-btn {
-  width: 100%;
+  width: 90%;
   padding: 20px;
   background-color: #ff5722;
   color: white;
