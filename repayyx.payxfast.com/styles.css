@@ -31,7 +31,7 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.5em;
+  font-size: 0.9em;
 }
 
 .header .icons i {
@@ -85,6 +85,10 @@ body {
   display: inline-block;
 }
 
+.hr {
+  border: 0.2em #333;
+  width: 100%;
+}
 /* Payment Options */
 .payment-options {
   margin: 20px 0;
@@ -163,7 +167,7 @@ body {
 
 @keyframes slideIn {
   from { opacity: 0; top: 10px; }
-  to { opacity: 1; top: 20px; }
+  to { opacity: 1; top: 10px; }
 }
 
 @keyframes fadeOut {
