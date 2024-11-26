@@ -40,16 +40,10 @@ body {
 
 /* Content */
 .content h1 {
-  margin: 10px 0;
-  display: flex;
-  margin-top: 20px;
+  font-size: 0.9em;
+  margin-bottom: 20px;
   color: #333;
-  text-align: right;
-}
-.content strong {
-  font-style:bold;
-  color: #333;
-  font-size: 0.7em;
+  text-align: left;
 }
 
 .info p {
@@ -61,7 +55,7 @@ body {
 
 .info span {
   color: #555;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
 .button {
@@ -80,7 +74,7 @@ body {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.7em;
+  font-size: 0.9em;
   margin-top: 20px;
   display: inline-block;
 }
@@ -106,7 +100,7 @@ body {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.7em;
+  font-size: 0.9em;
   margin: 10px 0;
 }
 
@@ -148,7 +142,7 @@ body {
 .notification {
   width: 100%;
   position: fixed;
-  top: 0px;
+  top: 10px;
   left: 50%;
   right: 50%;
   text-align: center;
@@ -166,8 +160,8 @@ body {
 }
 
 @keyframes slideIn {
-  from { opacity: 0; top: 10px; }
-  to { opacity: 1; top: 10px; }
+  from { opacity: 0; top: 1px; }
+  to { opacity: 1; top: 1px; }
 }
 
 @keyframes fadeOut {
