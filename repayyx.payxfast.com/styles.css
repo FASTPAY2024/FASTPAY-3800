@@ -40,14 +40,10 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.2em;
+  font-size: 0.9em;
   margin-bottom: 20px;
   color: #333;
   text-align: right;
-}
-.content strong {
-  color: #333;
-  font-size: 0.2em;
 }
 
 .info p {
