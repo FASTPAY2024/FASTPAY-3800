@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   text-align: right;
 }
-.content strong {
+.info strong {
   color: #333;
   font-size: 0.7em;
   align-items: right;
@@ -96,7 +96,6 @@ body {
   display: flex;
   align-items: left;
   margin: 15px 10px;
-  border-inline-height: 1px thin;
 }
 
 .payment-options img {
