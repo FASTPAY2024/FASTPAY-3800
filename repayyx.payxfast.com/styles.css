@@ -48,13 +48,13 @@ body {
 .content strong{
   color: #333;
   font-size: 0.9em;
-  text-align: right;
+  text-align: left;
 
 .info p {
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: right;
 }
 
 .info span {
