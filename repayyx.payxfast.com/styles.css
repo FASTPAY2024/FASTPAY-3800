@@ -118,8 +118,8 @@ body {
 
 /* Submit Button */
 .submit-btn {
-  width: 90%;
-  padding: 20px;
+  width: 100%;
+  padding: 15px;
   background-color: #007bff;
   color: white;
   border: none;
@@ -129,13 +129,13 @@ body {
 }
 
 .error-btn {
-  width: 90%;
-  padding: 20px;
+  width: 100%;
+  padding: 15px;
   background-color: #ff5722;
   color: white;
   border: none;
   border-radius: 30px;
-  font-size: 0.6em;
+  font-size: 1em;
   margin-top: 10px;
 }
 
