@@ -41,7 +41,7 @@ body {
 /* Content */
 .content h1 {
   font-size: 0.9em;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: #333;
   text-align: right;
 }
