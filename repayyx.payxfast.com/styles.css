@@ -44,7 +44,6 @@ body {
 /* Content */
 .content h1 {
   font-size: 1.2em;
-  margin-bottom: 20px;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
