@@ -45,6 +45,10 @@ body {
   color: #333;
   text-align: right;
 }
+.content strong {
+  color: #555;
+  font-size: 0.7em;
+}
 
 .info p {
   margin: 10px 0;
