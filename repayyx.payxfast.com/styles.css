@@ -51,6 +51,7 @@ body {
 .content strong {
   color: #333;
   font-size: 0.7em;
+  align-items: right;
 }
 
 .info p {
