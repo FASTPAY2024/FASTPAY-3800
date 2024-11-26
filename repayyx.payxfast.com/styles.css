@@ -47,7 +47,7 @@ body {
   display: flex;
   text-align: right;
 }
-.info strong {
+.content strong {
   color: #333;
   font-size: 0.7em;
   align-items: right;
