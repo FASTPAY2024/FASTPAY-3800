@@ -40,13 +40,15 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.9em;
+  margin: 10px 0;
+  display: flex;
   margin-bottom: 20px;
   color: #333;
   text-align: right;
 }
 .content strong {
-  color: #555;
+  font-style:bold;
+  color: #333;
   font-size: 0.7em;
 }
 
