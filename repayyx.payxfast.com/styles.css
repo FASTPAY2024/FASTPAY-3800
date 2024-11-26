@@ -42,7 +42,7 @@ body {
 .content h1 {
   margin: 10px 0;
   display: flex;
-  margin-bottom: 20px;
+  margin-top: 20px;
   color: #333;
   text-align: right;
 }
