@@ -18,10 +18,11 @@ body {
 /* Container */
 .container {
   width: auto;
+  height: auto;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 40px;
+  padding: 20px 40px;
   text-align: left;
 }
 
@@ -42,14 +43,14 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.4em;
+  font-size: 0.1em;
   margin-bottom: 20px;
   color: #333;
   text-align: left;
 }
 
 .info p {
-  margin: 0px 0;
+  margin: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -57,15 +58,13 @@ body {
 
 .info span {
   color: #555;
-  font-size: 0.4em;
+  font-size: 0.7em;
 }
 
 
 
 .button {
-  width:  100%;
-  height: 50px;
-  padding: 1px 1px;
+  padding: 20px 40px;
   background-color: #FDFEFE;
   color:DeepSkyBlue;
   border: 1px solid #00BFFF;
@@ -80,7 +79,7 @@ body {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.7em;
   margin-top: 20px;
   display: inline-block;
 }
@@ -94,7 +93,7 @@ body {
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 10px 20px;
+  margin: 15px 10px;
 }
 
 .payment-options img {
@@ -103,7 +102,7 @@ body {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.7em;
   margin: 10px 0;
 }
 
