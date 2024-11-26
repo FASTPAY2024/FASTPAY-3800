@@ -29,7 +29,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: right;
   color: #333;
   font-size: 0.9em;
 }
@@ -43,7 +43,7 @@ body {
   font-size: 0.9em;
   margin-bottom: 20px;
   color: #333;
-  text-align: left;
+  text-align: right;
 }
 .content strong{
   color: #333;
