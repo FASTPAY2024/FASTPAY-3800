@@ -33,7 +33,7 @@ body {
   justify-content: space-between;
   align-items: left;
   color: #333;
-  font-size: 0.9em;
+  font-size: 0.5em;
 }
 
 .header .icons i {
@@ -49,7 +49,7 @@ body {
 }
 
 .info p {
-  margin: 5px 0;
+  margin: 0px 0;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -57,6 +57,7 @@ body {
 
 .info span {
   color: #555;
+  font-size: 0.4em;
 }
 
 
@@ -87,6 +88,7 @@ body {
 /* Payment Options */
 .payment-options {
   margin: 20px 0;
+  border-inline-height: thin;
 }
 
 .payment-options label {
@@ -101,7 +103,7 @@ body {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.4em;
+  font-size: 0.9em;
   margin: 10px 0;
 }
 
