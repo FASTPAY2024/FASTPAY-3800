@@ -43,10 +43,10 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.7em;
+  font-size: 1.2em;
   margin-bottom: 20px;
   color: #333;
-  text-align: left;
+  text-align: right;
 }
 
 .info p {
