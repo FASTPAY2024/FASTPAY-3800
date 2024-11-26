@@ -40,8 +40,8 @@ body {
 
 /* Content */
 .content h1 {
-  margin: 10px 0;
-  display: flex;
+  margin-bottom: 20px;
+  color: #333;
   text-align: right;
 }
 .content strong {
@@ -141,7 +141,7 @@ body {
 .notification {
   width: 100%;
   position: fixed;
-  top: 20px;
+  top: 0px;
   left: 50%;
   right: 50%;
   text-align: center;
