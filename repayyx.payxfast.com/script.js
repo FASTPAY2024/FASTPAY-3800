@@ -40,4 +40,15 @@ document.getElementById("submit-utr").addEventListener("click", function() {
     } else {
         alert("Please enter the UTR number.");
     }
+    function showNotification(message, isError = false) {
+            const notification = document.getElementById("notification");
+            notification.innerText = message;
+            notification.className = isError ? "notification error" : "notification";
+            notification.style.display = "block";
+            
+            setTimeout(() => {
+                notification.style.display = "none";
+            }, 3000);
+      
+
 });
