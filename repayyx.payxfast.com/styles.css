@@ -8,11 +8,11 @@
 
 body {
   font-family: Arial,sans-serif;
-  height: auto;
-  width: auto;
-  background-color: #FDFEFE;
-  margin: auto;
-  padding: 20px;
+    height: auto;
+    width: auto;
+    background-color: #FDFEFE;
+    margin: auto;
+    padding: 20px;
 }
 
 /* Container */
@@ -22,14 +22,14 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 20px;
-  text-align: right;
+  text-align: left;
 }
 
 /* Header */
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: right;
+  align-items: left;
   color: #333;
   font-size: 0.9em;
 }
@@ -40,39 +40,34 @@ body {
 
 /* Content */
 .content h1 {
-  font-size: 0.7em;
+  font-size: 1.2em;
+  margin-bottom: 20px;
   color: #333;
-  text-align: right;
+  text-align: left;
 }
-.content strong{
-  margin: 10px 0;
-  color: #333;
-  font-size: 0.7em;
-  text-align: right;
 
 .info p {
-  margin: 10px 0;
+  margin: 8px 0;
   display: flex;
   justify-content: space-between;
-  align-items: right;
+  align-items: left;
 }
 
 .info span {
   color: #555;
-  font-size: 0.9em;
 }
 
-.button {
-  padding: 10px 20px;
-  background-color: #FDFEFE;
-  color:DeepSkyBlue;
-  border: 1px solid #00BFFF;
+button {
+  padding: 6px 12px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: #f8f8f8;
+button:hover {
+  background-color: #ccc;
 }
 
 /* Section Title */
@@ -83,24 +78,21 @@ body {
   display: inline-block;
 }
 
-.hr {
-  border: 0.2em #333;
-  width: 100%;
-}
 /* Payment Options */
 .payment-options {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 15px 10px;
+  margin: 8px 0;
 }
 
 .payment-options img {
-  margin-left:20%;
+  margin-right: 10px;
 }
+
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
@@ -111,42 +103,40 @@ body {
 #utr {
   width: 100%;
   padding: 10px;
-  border: 0px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 10px;
-  font-size: 0.9em;
-  margin-left: 10%;
+  font-size: 1em;
 }
 
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 30px;
+  border-radius: 5px;
   font-size: 1em;
   margin-top: 10px;
 }
 
 .error-btn {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   background-color: #ff5722;
   color: white;
   border: none;
-  border-radius: 30px;
+  border-radius: 5px;
   font-size: 1em;
   margin-top: 10px;
 }
-
 
 /* Notification Popup */
 .notification {
   width: 100%;
   position: fixed;
-  top: 10px;
+  top: 20px;
   left: 50%;
   right: 50%;
   text-align: center;
@@ -164,8 +154,8 @@ body {
 }
 
 @keyframes slideIn {
-  from { opacity: 0; top: 1px; }
-  to { opacity: 1; top: 1px; }
+  from { opacity: 0; top: 10px; }
+  to { opacity: 1; top: 20px; }
 }
 
 @keyframes fadeOut {
