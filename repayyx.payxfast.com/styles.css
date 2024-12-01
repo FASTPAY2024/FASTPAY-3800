@@ -118,11 +118,11 @@ button:hover {
 
 
 #utr {
-  width: 80%;
+  width: 75%;
   height:100%;
   padding: 10px;
-  margin-left:40px;
-  margin-top:20px;
+  margin-left:45px;
+  margin-top:0px;
   font-size: 0.9em;
 }
 #utrbhover {
