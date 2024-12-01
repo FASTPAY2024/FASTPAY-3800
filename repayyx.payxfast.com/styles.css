@@ -1,12 +1,16 @@
 
-
 body {
   font-family: 'Arial', sans-serif;
-    max-width: auto;
-    max-height: auto;
-    padding:5px;
-    margin:5px;
+    max-width:650px;
+    max-height:auto%;
+    padding:7px;
+    margin:0px 5px;
     background-color: #ffffff;
+}
+hr {
+    border-style:solid;
+    border-color:lightgray;
+    border-width:0.20px;
 }
 
 /* Container */
@@ -29,13 +33,13 @@ body {
 }
 
 .header .icons i {
-  margin-left: 20px;
+  margin-left: 100px;
 }
 
 /* Content */
 .content h1 {
-  font-size: 1.2em;
-  margin-bottom: 1px;
+  font-size: 1em;
+  margin-bottom: 100px;
   color: #333;
   text-align:left;
 }
@@ -49,11 +53,11 @@ body {
 
 .info span {
   color: #555;
-  margin-top:25px;
+  margin-top:20px;
 }
 
 .info p2 {
-  margin: 20px 5px;
+  margin: 40px 5px;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -62,13 +66,20 @@ body {
 .info span1 {
   color: #555;
 }
+strong {
+    font-size:0.9em;
+    margin-left:100px;
+    justify-content: space-between;
+}
 
 button {
-  padding: 30px 20px;
-  background-color: #f5f5f5;
+  padding: 20px 20px;
+  background-color: #ffffff;
   color: blue;
+  font-size:0.9em;
   border: 1px solid #007bff;
   border-radius: 5px;
+  justify-content: space-between;
   cursor: pointer;
 }
 
@@ -80,54 +91,54 @@ button:hover {
 .section-title {
   color: #007bff;
   font-size: 0.9em;
-  margin-top: 20px;
+  margin-top: 0px 0;
   display: inline-block;
 }
 
 /* Payment Options */
 .payment-options {
-  margin: 15px 0;
+  margin: 0px 0;
 }
 
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 20px 0px;
+  margin: 20px 5px;
 }
 
 .payment-options img {
-  margin-right: 100px;
-  margin-left:70px;
+  margin-right: 200px;
+  margin-left:80px;
 }
 
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
   font-size: 0.9em;
-  margin: 10px 0;
+  margin: 0px 0;
 }
-
 
 #utr {
   width: 85%;
-  height:75%;
+  height:100%;
   padding: 10px;
-  margin-left:50px;
+  margin-left:45px;
   margin-top:0px;
+  border:0px solid #ffffff;
   border-color:#ffffff;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height:80%;
+  height:90%;
   padding: 20px;
   background-color: #007bff;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 18px;
+  font-size:1em;
   margin-top: 10px;
 }
 .submit-btn:hover {
@@ -136,13 +147,13 @@ button:hover {
 
 .error-btn {
   width: 100%;
-  height:80%%;
+  height:90%;
   padding: 20px;
   background-color: #ff6347;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 1em;
   margin-top: 10px;
 }
 .error-btn:hover {
