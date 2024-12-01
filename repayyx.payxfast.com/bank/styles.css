@@ -2,8 +2,6 @@
 
 body {
   font-family: 'Arial', sans-serif;
-    max-width:650px;
-    max-height:650px;
     padding:5px;
     margin:5px;
     background-color: #ffffff;
@@ -19,7 +17,7 @@ input::placeholder {
 }
 input {
     border: none;
-    background-color: transparent; /* Transparent background */
+    background-color: rgba(0, 0, 0, 0.0); /* Transparent background */
     padding: 10px;
     font-size: 1em;
     outline: none; /* Remove default focus border */
