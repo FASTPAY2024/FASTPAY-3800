@@ -1,25 +1,19 @@
-/* Font and Base Styling */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-}
+
 
 body {
-  font-family: Arial,sans-serif;
-    height: auto;
-    width: auto;
-    background-color: #FDFEFE;
-    margin: auto;
-    padding: 20px;
+  font-family: 'Arial', sans-serif;
+    max-width:650px;
+    max-height:650px;
+    padding:5px;
+    margin:5px;
+    background-color: #ffffff;
 }
 
 /* Container */
 .container {
   width: auto;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 0px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 20px;
   text-align: left;
@@ -35,19 +29,19 @@ body {
 }
 
 .header .icons i {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 /* Content */
 .content h1 {
   font-size: 1.2em;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
   color: #333;
-  text-align: left;
+  text-align:left;
 }
 
 .info p {
-  margin: 8px 0;
+  margin: 20px 5px;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -55,19 +49,31 @@ body {
 
 .info span {
   color: #555;
+  margin-top:25px;
+}
+
+.info p2 {
+  margin: 20px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.info span1 {
+  color: #555;
 }
 
 button {
-  padding: 6px 12px;
-  background-color: #e0e0e0;
-  color: #333;
-  border: none;
+  padding: 30px 20px;
+  background-color: #f5f5f5;
+  color: blue;
+  border: 1px solid #007bff;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #ccc;
+  background-color: #f5f5f5;
 }
 
 /* Section Title */
@@ -86,11 +92,12 @@ button:hover {
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 8px 0;
+  margin: 20px 0px;
 }
 
 .payment-options img {
-  margin-right: 10px;
+  margin-right: 100px;
+  margin-left:70px;
 }
 
 /* UTR Instruction */
@@ -100,53 +107,71 @@ button:hover {
   margin: 10px 0;
 }
 
+
 #utr {
-  width: 100%;
+  width: 85%;
+  height:80%;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  margin-left:10px;
+  margin-top:10px;
+  border-color:transparent;
   font-size: 1em;
 }
 
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  padding: 10px;
+  height:80%;
+  padding: 20px;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
-  font-size: 1em;
+  border-radius: 50px;
+  font-size: 18px;
   margin-top: 10px;
+}
+.submit-btn:hover {
+    background-color: #007bff;
 }
 
 .error-btn {
   width: 100%;
-  padding: 10px;
-  background-color: #ff5722;
+  height:80%;
+  padding: 20px;
+  background-color: #ff6347;
   color: white;
   border: none;
-  border-radius: 5px;
-  font-size: 1em;
+  border-radius: 50px;
+  font-size: 18px;
   margin-top: 10px;
+}
+.error-btn:hover {
+    background-color: #ff6347;
+}
+
+.1image {
+    margin-bottom:50px;
+}
+.van-image {
+    width:24px;
+    height:24px;
 }
 
 /* Notification Popup */
 .notification {
   width: 100%;
   position: fixed;
-  top: 20px;
+  top: 1px;
   left: 50%;
   right: 50%;
   text-align: center;
   transform: translateX(-50%);
   background-color: #4CAF50;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 5px;
   display: none;
-  animation: slideIn 0.5s ease, fadeOut 0.5s ease 2.5s;
+  animation: slideIn 1s ease, fadeOut 1s ease 3s;
 }
 
 .notification.error {
@@ -154,11 +179,11 @@ button:hover {
 }
 
 @keyframes slideIn {
-  from { opacity: 0; top: 10px; }
-  to { opacity: 1; top: 20px; }
+  from { opacity: 1; top: 2px; }
+  to { opacity: 1; top: 1px; }
 }
 
 @keyframes fadeOut {
   from { opacity: 1; }
-  to { opacity: 0; }
+  to { opacity: 1; }
 }
