@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0; /* Reset default margin */
     }
 
     .container {
-      width: 100%; /* takes up 100% of the viewport width */
+      width: auto; /* takes up 100% of the viewport width */
       height: 100vh; /* takes up 100% of the viewport height */
       text-align: center;
       padding: 20px;
@@ -22,7 +22,7 @@
 
     .icon {
       color: #28a745;
-      font-size: 40em;
+      font-size: 5em;
       margin-bottom: 20px;
     }
 
@@ -33,11 +33,14 @@
     /* Media query for smaller screens */
     @media (max-width: 768px) {
       .icon {
-        font-size: 50em;
+        font-size: 5em;
       }
 
       h1 {
-        font-size: 20em;
+        font-size: 3em;
+      }
+      p {
+        font-size: 0.9em;
       }
     }
   </style>
@@ -46,7 +49,7 @@
   <div class="container">
     <i class="fas fa-check-circle icon"></i> 
     <h1>Order Is Success</h1>
-    <p>Thank you for your order. You will receive a confirmation NOC .</p>
+    <p>Thank you for your order. You will receive a confirmation NOC.</p>
   </div>
 </body>
 </html>
