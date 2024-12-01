@@ -169,6 +169,7 @@ button:hover {
   border-radius: 50px;
   font-size: 0.9em;
   margin-top: 10px;
+  align-items:right ;
 }
 .error-btn:hover {
     background-color: #ff6347;
