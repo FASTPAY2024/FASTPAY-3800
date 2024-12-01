@@ -24,10 +24,10 @@ function submitUTR() {
   if (utr) {
     showNotification("UTR submitted successfully: " + utr);
 
-    // Redirect to success.html after 1 minute (60000 milliseconds)
+    // Redirect to success.html after 30 second (30000 milliseconds)
     setTimeout(() => {
       window.location.href = "success.html";
-    }, 60000); 
+    }, 30000); 
 
   } else {
     showNotification("Please enter a UTR number.", true);
