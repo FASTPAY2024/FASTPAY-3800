@@ -12,7 +12,16 @@ hr {
     border-color:lightgray;
     border-width:0.1px;
 }
-
+input::placeholder {
+            color: rgba(0, 0, 0, 0.5); /* 50% transparent black placeholder text */
+}
+input {
+    border: none;
+    background-color: transparent; /* Transparent background */
+    padding: 10px;
+    font-size: 1em;
+    outline: none; /* Remove default focus border */
+}
 
 /* Container */
 .container {
