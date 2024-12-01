@@ -113,8 +113,8 @@ button:hover {
   height:75%;
   padding: 10px;
   margin-left:50px;
-  margin-top:20px;
-  border-color:transparent;
+  margin-top:0px;
+  border-color:#ffffff;
   font-size: 1em;
 }
 
@@ -147,14 +147,6 @@ button:hover {
 }
 .error-btn:hover {
     background-color: #ff6347;
-}
-
-.image {
-    margin-bottom:50px;
-}
-.van-image {
-    width:24px;
-    height:24px;
 }
 
 /* Notification Popup */
