@@ -4,13 +4,8 @@ body {
     max-width:650px;
     max-height:650px;
     padding:5px;
-    margin:0px 5px;
+    margin:5px;
     background-color: #ffffff;
-}
-hr {
-    border-style:solid;
-    border-color:lightgray;
-    border-width:0.20px;
 }
 
 /* Container */
@@ -33,15 +28,15 @@ hr {
 }
 
 .header .icons i {
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 /* Content */
 .content h1 {
-  font-size: 1em;
-  margin-bottom: 100px;
+  font-size: 1.2em;
+  margin-bottom: 1px;
   color: #333;
-  text-align: right;
+  text-align:left;
 }
 
 .info p {
@@ -53,11 +48,11 @@ hr {
 
 .info span {
   color: #555;
-  margin-top:20px;
+  margin-top:25px;
 }
 
 .info p2 {
-  margin: 40px 5px;
+  margin: 20px 5px;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -66,20 +61,13 @@ hr {
 .info span1 {
   color: #555;
 }
-strong {
-    font-size:0.9em;
-    margin-left:100px;
-    justify-content: space-between;
-}
 
 button {
-  padding: 20px 20px;
-  background-color: #ffffff;
+  padding: 30px 20px;
+  background-color: #f5f5f5;
   color: blue;
-  font-size:0.9em;
   border: 1px solid #007bff;
   border-radius: 5px;
-  justify-content: space-between;
   cursor: pointer;
 }
 
@@ -91,54 +79,54 @@ button:hover {
 .section-title {
   color: #007bff;
   font-size: 0.9em;
-  margin-top: 0px 0;
+  margin-top: 20px;
   display: inline-block;
 }
 
 /* Payment Options */
 .payment-options {
-  margin: 0px 0;
+  margin: 15px 0;
 }
 
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 20px 5px;
+  margin: 20px 0px;
 }
 
 .payment-options img {
-  margin-right: 200px;
-  margin-left:80px;
+  margin-right: 100px;
+  margin-left:70px;
 }
 
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
   font-size: 0.9em;
-  margin: 0px 0;
+  margin: 10px 0;
 }
+
 
 #utr {
   width: 85%;
-  height:100%;
+  height:80%;
   padding: 10px;
-  margin-left:45px;
-  margin-top:0px;
-  border:0px solid #ffffff;
-  border-color:#ffffff;
-  font-size: 0.9em;
+  margin-left:10px;
+  margin-top:10px;
+  border-color:transparent;
+  font-size: 1em;
 }
 
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height:90%;
+  height:80%;
   padding: 20px;
   background-color: #007bff;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size:1em;
+  font-size: 18px;
   margin-top: 10px;
 }
 .submit-btn:hover {
@@ -147,17 +135,25 @@ button:hover {
 
 .error-btn {
   width: 100%;
-  height:90%;
+  height:80%;
   padding: 20px;
   background-color: #ff6347;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 1em;
+  font-size: 18px;
   margin-top: 10px;
 }
 .error-btn:hover {
     background-color: #ff6347;
+}
+
+.1image {
+    margin-bottom:50px;
+}
+.van-image {
+    width:24px;
+    height:24px;
 }
 
 /* Notification Popup */
