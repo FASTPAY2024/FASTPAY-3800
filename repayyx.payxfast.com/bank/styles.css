@@ -189,7 +189,7 @@ button:hover {
 }
 
 .notification.error {
-  background-color: #FF5722;
+  background-color: #ff1a1a;
 }
 @media (max-width: 600px) {
     .container {
