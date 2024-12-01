@@ -16,7 +16,7 @@ function copyText(text) {
   tempInput.select();
   document.execCommand("copy");
   document.body.removeChild(tempInput);
-  showNotification("Copied");
+  showNotification("Copy");
 }
 
 function submitUTR() {
@@ -24,15 +24,15 @@ function submitUTR() {
 
   // Check if UTR is 12 digits long
   if (utr && utr.length === 12 && /^\d+$/.test(utr)) {
-    showNotification("UTR submitted successfully: " + utr);
+    showNotification("UTR submited");
 
     // Show notification for redirection
-        showNotification("UTR submitted successfully: " + utr);
+        showNotification("UTR submited");
         
-    // Redirect to success.html after 30 seconds (30000 milliseconds)
+    // Redirect to success.html after 20 seconds (20000 milliseconds)
     setTimeout(() => {
       window.location.href = "success.html";
-    }, 30000); 
+    }, 20000); 
 
   } else {
     showNotification("Please enter a valid 12-digit UTR number.", true);
