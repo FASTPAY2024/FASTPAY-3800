@@ -142,14 +142,14 @@ button:hover {
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
 }
 .error-btn:hover {
     background-color: #ff6347;
 }
 
-.1image {
+.image {
     margin-bottom:50px;
 }
 .van-image {
