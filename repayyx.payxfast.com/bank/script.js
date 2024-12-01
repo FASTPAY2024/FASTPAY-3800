@@ -1,4 +1,3 @@
-
 function showNotification(message, isError = false) {
   const notification = document.getElementById("notification");
   notification.innerText = message;
@@ -48,6 +47,6 @@ function showError() {
 document.getElementById("submit-utr").addEventListener("click", submitUTR);
 
 // Handle Payment Failed button click (assuming you have a button with the ID "payment-failed-btn")
-document.getElementById("error-btn").addEventListener("click", function() {
+document.getElementById("payment-failed-btn").addEventListener("click", function() {
   window.location.href = "bank.html";
 });
