@@ -3,25 +3,50 @@
 <head>
   <title>Order Success</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <style>
+    body {
+      font-family: sans-serif;
+      margin: 0; /* Reset default margin */
+    }
+
     .container {
-      width: 100%; /* takes up 100% of the viewport width */
-      height: 100vh; /* takes up 100% of the viewport height */
       text-align: center;
-      margin-top: 50px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #f9f9f9; 
+      margin: 20px; /* Add some margin around the container */
     }
 
     .icon {
-      color: green;
+      color: #28a745;
       font-size: 48px;
       margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #333; 
+    }
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+      .icon {
+        font-size: 36px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <i class="fas fa-check-circle icon"></i> 
-    <h1>Order is success</h1>
+    <h1>Order Successful!</h1>
+    <p>Thank you for your order. You will receive a confirmation email shortly.</p>
+    <p>Your order number is: <strong>1234567890</strong></p> 
+    <a href="#" class="button">Continue Shopping</a> 
   </div>
 </body>
 </html>
