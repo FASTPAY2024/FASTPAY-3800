@@ -56,6 +56,7 @@ input {
 .info span {
   color: #555;
   margin-top:20px;
+  font-size:0.8em;
 }
 
 .info p2 {
@@ -63,14 +64,14 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: left;
- margin-top:25px;
+  margin-top:25px;
 }
 
 .info span1 {
   color: #555;
 }
 .info strong {
-    font-size:0.6em;
+    font-size:0.8em;
 }
 button {
   padding: 20px 20px;
