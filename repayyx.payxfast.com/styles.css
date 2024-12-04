@@ -91,7 +91,7 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-top: 10px;
   display: inline-block;
 }
@@ -115,7 +115,7 @@ button:hover {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin: 0px 0;
 }
 
@@ -132,14 +132,14 @@ button:hover {
 #utr:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
- .inline-elements {
-            display: flex;
-            align-items: center;
-            padding:20px;
-        }
-        .inline-elements input {
-            margin-left: 20px;
-        }
+.inline-elements {
+  display: flex;
+  align-items: center;
+  padding:20px;
+}
+.inline-elements input {
+  margin-left: 20px;
+}
         
 /* Submit Button */
 .submit-btn {
@@ -150,7 +150,7 @@ button:hover {
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-top: 10px;
 }
 .submit-btn:hover {
@@ -165,7 +165,7 @@ button:hover {
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-top: 10px;
 }
 .error-btn:hover {
@@ -187,7 +187,7 @@ button:hover {
   transform: translateX(-50%);
   background-color: #4CAF50;
   color: white;
-  padding: 15px 20px;
+  padding: 15px 15px;
   border-radius: 5px;
   display: none;
   animation: slideIn 1s ease, fadeOut 1s ease 3s;
@@ -201,13 +201,9 @@ button:hover {
     .container {
         background-color: lightblue;
 }
-@media (min-height:100%) and (max-height: 1024px) {
-    .container {
-        background-color: lightblue;
-}
 
 @keyframes slideIn {
-  from { opacity: 1; top: 2px; }
+  from { opacity: 1; top: 1px; }
   to { opacity: 1; top: 1px; }
 }
 
