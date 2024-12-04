@@ -1,6 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
-    w
+  font-family: 'Arial',sans-serif;
     padding:5px;
     margin:5px;
     background-color: #ffffff;
@@ -109,7 +108,7 @@ button:hover {
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
 .payment-options img {
@@ -132,7 +131,7 @@ button:hover {
   margin-left:10px;
   margin-top:0px;
   border:0px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 #utr:hover {
     background-color: rgba(255, 255, 255, 0.1);
