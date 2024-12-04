@@ -23,7 +23,7 @@ input {
 /* Container */
 .container {
     width: 100%; /* takes up 100% of the viewport width */
-    height: 100vh; /* takes up 100% of the viewport height */
+    height: 100%; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
