@@ -1,5 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
+    w
     padding:5px;
     margin:5px;
     background-color: #ffffff;
@@ -19,6 +20,7 @@ input {
     padding: 10px;
     font-size: 1em;
     outline: none; /* Remove default focus border */
+    underline:1px;
 }
 /* Container */
 .container {
@@ -31,7 +33,7 @@ input {
   justify-content: space-between;
   align-items: left;
   color: #ffffff;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .header .icons i {
@@ -41,7 +43,7 @@ input {
 /* Content */
 .content h1 {
   font-size: 0em;
-  margin-bottom: 1px;
+  margin-bottom: 0.8px;
   color: #333;
   text-align:left;
 }
@@ -55,7 +57,7 @@ input {
 
 .info span {
   color: #555;
-  margin-top:20px;
+  margin-top:10px;
   font-size:0.8em;
 }
 
@@ -64,15 +66,20 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: left;
-  margin-top:25px;
-  font-size:0.8em
 }
 
 .info span1 {
   color: #555;
+  margin-top:10px;
+  font-size:0.8em;
 }
 .info strong {
     font-size:0.8em;
+    margin-top:10px;
+}
+.info strong1 {
+    font-size:0.8em;
+    margin-top:10px;
 }
 button {
   padding: 20px 20px;
@@ -104,7 +111,7 @@ button:hover {
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 20px 0px;
+  margin: 15px 0px;
 }
 
 .payment-options img {
@@ -127,7 +134,7 @@ button:hover {
   margin-left:10px;
   margin-top:0px;
   border:0px solid rgba(255, 255, 255, 0.1);
-  font-size: 1em;
+  font-size: 0.9em;
 }
 #utr:hover {
     background-color: rgba(255, 255, 255, 0.1);
@@ -139,6 +146,8 @@ button:hover {
 }
 .inline-elements input {
   margin-left: 20px;
+  font-size:0.7em;
+  color:#555;
 }
         
 /* Submit Button */
