@@ -200,7 +200,11 @@ button:hover {
 @media (min-width:100%) and (max-width: 1024px) {
     .container {
         background-color: lightblue;
-    }
+}
+@media (min-height:100%) and (max-height: 1024px) {
+    .container {
+        background-color: lightblue;
+}
 
 @keyframes slideIn {
   from { opacity: 1; top: 2px; }
