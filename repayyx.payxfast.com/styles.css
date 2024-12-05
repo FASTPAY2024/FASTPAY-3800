@@ -5,13 +5,10 @@ body {
   display:auto;
   width:100vw;
   height:100vh;
-  padding-right:15px;
-  padding-left:10px;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding:10px 10px;
   overflow: hidden;
   display: inline-block;
-  
+  position: fixed;
 }
 
 hr {
