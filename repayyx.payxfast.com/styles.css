@@ -34,10 +34,6 @@ radio {
 }
 
 /* Content */
-.content h1 {
-  color: #333;
-  text-align:left;
-}
 .content p {
   display: flex;
   font-size:1em;
