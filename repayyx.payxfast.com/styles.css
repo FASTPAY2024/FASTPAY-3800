@@ -143,10 +143,10 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.0);
 }
 .inline-elements {
-  display: flex;
+  display: inline-block;
   font-size:0.5em;
   margin-left: 15px;
-  margin-top: 10px;
+  align-items:center;
   font-weight:300;
   color:#555;
 }
