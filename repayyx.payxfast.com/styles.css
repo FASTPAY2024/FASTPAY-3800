@@ -8,7 +8,8 @@ body {
   padding:10px 10px;
   overflow: hidden;
   display: inline-block;
-  position: fixed;
+  position: full;
+  zoom: normal;
 }
 
 hr {
