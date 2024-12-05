@@ -14,8 +14,8 @@ input::placeholder {
 input {
     border: none;
     background-color: transparent; /* Transparent background */
-    padding: 5px 0;
-    font-size: 0.7em;
+    padding:0;
+    font-size: 0.9em;
     outline: none; /* Remove default focus border */
 }
 /* Container */
@@ -101,7 +101,7 @@ button:hover {
 .section-title {
   color: #007bff;
   font-size: 0.6em;
-  font-weight:200;
+  font-weight:250;
   margin-bottom: 5px;
   display: inline-block;
 }
@@ -126,8 +126,8 @@ button:hover {
 .utr-instruction {
   color: #007bff;
   margin-top:10px;
-  font-size: 0.5em;
-  font-weight:200;
+  font-size: 0.6em;
+  font-weight:250;
 }
 
 
@@ -135,8 +135,8 @@ button:hover {
   width: 80%;
   height:30px;
   padding: 0;
-  margin-left:10px;
-  margin-top:10px;
+  margin-left:30px;
+  margin-top:0px;
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.7em;
 }
@@ -148,8 +148,7 @@ button:hover {
   font-size:0.7em;
   font-weight:300;
   color:#555;
-  margin-top:10px;
-  padding:0px 5px;
+  padding:0 10px;
 }
 .inline-elements input {
   margin-left: 20px;
