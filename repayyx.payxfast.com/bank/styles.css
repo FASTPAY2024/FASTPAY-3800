@@ -201,7 +201,7 @@ button:hover {
   }
   
 .inline-elements input::placeholder {
-            color: rgba(0, 0, 0, 0.0); /* 50% transparent black placeholder text */
+            color: rgba(0, 0, 0, 0.5); /* 50% transparent black placeholder text */
 }
 .inline-elements input text{
      /* Remove default focus border */
