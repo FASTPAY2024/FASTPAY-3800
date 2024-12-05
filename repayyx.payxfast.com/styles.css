@@ -14,7 +14,7 @@ input::placeholder {
 input {
     border: none;
     background-color: transparent; /* Transparent background */
-    padding:0;
+    padding:10px 0;
     font-size: 0.9em;
     outline: none; /* Remove default focus border */
 }
@@ -138,14 +138,14 @@ button:hover {
   margin-left:30px;
   margin-top:0px;
   border:0 solid rgba(0, 0, 0, 0.5);
-  font-size:0.7em;
+  font-size:0.9em;
 }
 #utr:hover {
     background-color: rgba(0, 0, 0, 0.0);
 }
 .inline-elements {
   display: flex;
-  font-size:0.7em;
+  font-size:0.9em;
   font-weight:300;
   color:#555;
   padding:0 10px;
