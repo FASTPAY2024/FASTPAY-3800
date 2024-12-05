@@ -54,6 +54,7 @@ input {
   color: #555;
   font-size:0.7em;
   font-weight:300;
+  margin-top:15px:
 }
 
 .info p2 {
@@ -74,7 +75,8 @@ input {
     disply:inline-block;
     font-size:0.7em;
     color:#333;
-    top:10px;
+    margin-right: 70px;
+    margin-left:100px;
     font-family:Arial;
 }
 
@@ -97,7 +99,7 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.7em;
+  font-size: 0.5em;
   font-weight:300;
   margin-bottom: 5px;
   display: inline-block;
@@ -122,8 +124,8 @@ button:hover {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  margin-top:5px;
-  font-size: 0.7em;
+  margin-top:10px;
+  font-size: 0.5em;
   font-weight:300;
 }
 
@@ -133,7 +135,7 @@ button:hover {
   height:30px;
   padding: 0;
   margin-left:10px;
-  margin-top:5px:
+  margin-top:0;
   border:0 solid rgba(0, 0, 0, 0.5);;
   font-size: 0.9em;
 }
@@ -152,6 +154,7 @@ button:hover {
   font-size:0.7em;
   font-weight:300;
   color:#333;
+  padding:5px 5px;
 }
         
 /* Submit Button */
