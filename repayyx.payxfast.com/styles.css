@@ -219,10 +219,10 @@ button:hover {
 }
 .inline-elements2 {
   diaply:flex;
-  width:80%;
-  height:80%;
+  width:50%;
+  height:50%;
   align:center;
-  justify-center:100%;
+  justify-center:100;
   margin-bottom:30px;
 }
 
