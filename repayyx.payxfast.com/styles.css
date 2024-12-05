@@ -149,7 +149,7 @@ button:hover {
   display: flex;
   font-size:0.9em;
   font-weight:300;
-  color:rgba(0, 0, 0, 0.0);;
+  color:rgba(0, 0, 0, 0.5);;
 }
 .inline-elements input {
   display: flex;
@@ -158,7 +158,7 @@ button:hover {
   margin-left:40px;
   align-items:right;
   border: none;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.0);
   font-size: 1em;
   outline: none;
   color: #333;
