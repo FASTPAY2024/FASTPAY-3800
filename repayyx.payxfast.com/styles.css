@@ -5,11 +5,11 @@ body {
 
 hr {
     border-style:solid;
-    border-color:#666;
+    border-color:lighter;
     border-width:0.1px;
 }
 radio {
-    border-color:#666;
+    border-color:lighter;
     border-width:0.1px;
 }
     
