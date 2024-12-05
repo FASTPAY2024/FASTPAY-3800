@@ -219,10 +219,9 @@ button:hover {
 }
 .inline-elements2 {
   diaply:flex;
-  width:20px;
-  height:20px;
+  width:5px;
+  height:5px;
   align:center;
-  justify-center:10px;
   margin-bottom:30px;
 }
 
