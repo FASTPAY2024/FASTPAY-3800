@@ -63,6 +63,7 @@ radio {
 }
 
 .info span1 {
+  display: flex;
   color: #555;
   margin-top:10px;
   font-size:1em;
