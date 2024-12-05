@@ -143,7 +143,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.0);
 }
 .inline-elements {
-  display: inline-block;
+  display: flex;
   font-size:0.5em;
   margin-left: 15px;
   align-items:center;
@@ -155,6 +155,13 @@ button:hover {
   font-size:0.9em;
   color:#333;
 }
+.inline-elements span {
+  disply:inline-block;
+  color: #555;
+  font-size:0.7em;
+  font-weight:300;
+  text-align:left;
+  
         
 /* Submit Button */
 .submit-btn {
