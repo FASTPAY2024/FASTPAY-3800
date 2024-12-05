@@ -18,8 +18,8 @@ radio {
     
 /* Container */
 .container {
-    max-width:1024px; /* takes up 100% of the viewport width */
-    max-height:1024px; /* takes up 100% of the viewport height */
+    max-width:auto; /* takes up 100% of the viewport width */
+    max-height:auto; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -267,8 +267,8 @@ button:hover {
   background-color: #ff1a1a;
 }
 
-@media (min-width:650px) and (max-width:1024px) {
-    .body {
+@media (min-width:50px) and (max-width:100%) {
+    .container {
         background-color: #FFFFFF;
 }
 
