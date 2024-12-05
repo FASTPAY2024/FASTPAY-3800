@@ -5,9 +5,10 @@ body {
   background-color: #FFFFFF;
   width:100vw;
   height:100vh;
-  padding:10px;
-  margic:0;
- 
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-right:10px:
+  padding-left:10px;
 }
 
 hr {
