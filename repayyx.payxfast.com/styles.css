@@ -16,7 +16,7 @@ radio {
 /* Container */
 .container {
     max-width:650px; /* takes up 100% of the viewport width */
-    max-height: 80vh; /* takes up 100% of the viewport height */
+    max-height: 100vh; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -216,6 +216,7 @@ button:hover {
   width: 100%;
   padding:5px 5px;
   height:10px;
+  margin-bottom:30px;
 }
 
 
