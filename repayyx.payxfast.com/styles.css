@@ -53,7 +53,7 @@ input {
 }
 
 .info span {
-  disply:inline;
+  disply:inline-block;
   color: #555;
   margin-top:0;
   font-size:0.7em;
