@@ -22,8 +22,8 @@ input {
 }
 /* Container */
 .container {
-    width: 100%; /* takes up 100% of the viewport width */
-    height: 80%; /* takes up 100% of the viewport height */
+    max-width: 100%; /* takes up 100% of the viewport width */
+    max-height: 80%; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -81,7 +81,7 @@ input {
 }
 
 button {
-  width: 90%;
+  width: 90px;
   height:70%;
   padding: 10px;
   background-color: #ffffff;
