@@ -144,7 +144,7 @@ button:hover {
   margin-left:40px;
   align-items:right;
   border: none;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.0);
   font-size: 0.9em;
   outline: none;
   color: #333;
