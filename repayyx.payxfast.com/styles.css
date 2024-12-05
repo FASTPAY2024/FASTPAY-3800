@@ -124,8 +124,6 @@ button:hover {
 
 
 #utr {
-  width: 80%;
-  height:30px;
   margin-right:30px;
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.em;
@@ -141,10 +139,15 @@ button:hover {
 }
 .inline-elements input {
   display: flex;
-  margin-left:30px;
+  width: 60%;
+  height:20px;
+  margin-left:40px;
   align-items:right;
-  font-size:0.7em;
-  color:#333;
+  border: none;
+  background-color: transparent;
+  font-size: 0.9em;
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
 }
 .inline-elements span {
   disply:flex;
@@ -160,11 +163,7 @@ button:hover {
             color: rgba(0, 0, 0, 0.5); /* 50% transparent black placeholder text */
 }
 .inline-elements input text{
-    border: none;
-    background-color: transparent; /* Transparent background */
-    margin-left:30px;
-    font-size: 0.9em;
-    outline: none; /* Remove default focus border */
+     /* Remove default focus border */
 }
         
 /* Submit Button */
