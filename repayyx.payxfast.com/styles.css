@@ -1,5 +1,5 @@
 body {
-  font-family: Arial,sans-serif;
+  font-family:sans-serif;
     background-color: #ffffff;
 }
 
@@ -219,8 +219,8 @@ button:hover {
 }
 .inline-elements2 {
   diaply:flex;
-  width:100%;
-  height:100%;
+  width:80%;
+  height:80%;
   align:center;
   justify-center:100%;
   margin-bottom:30px;
