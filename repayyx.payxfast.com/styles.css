@@ -143,7 +143,7 @@ button:hover {
   display: flex;
   margin-left:30px;
   align-items:right;
-  font-size:0.9em;
+  font-size:0.7em;
   color:#333;
 }
 .inline-elements span {
