@@ -14,9 +14,8 @@ input::placeholder {
 input {
     border: none;
     background-color: transparent; /* Transparent background */
-    padding:10px 5px;
-    margin-right:40px;
-    font-size: 0.9em;
+    margin-left:5px;
+    font-size: 0.7em;
     outline: none; /* Remove default focus border */
 }
 /* Container */
