@@ -25,7 +25,7 @@ radio {
   justify-content: space-between;
   align-items: left;
   color: #FFFFFF;
-  font-size: 0.6em;
+  font-size: 1em;
 }
 
 .header .icons i {
@@ -40,7 +40,7 @@ radio {
 
 .info p {
   display: flex;
-  font-size:0.7;
+  font-size:1em;
   justify-content: space-between;
   align-items: left;
 }
