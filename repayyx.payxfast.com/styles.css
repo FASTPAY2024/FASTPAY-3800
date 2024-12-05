@@ -15,7 +15,7 @@ input {
     border: none;
     background-color: transparent; /* Transparent background */
     padding:15px 5px;
-    margin-right: 20px;
+    margin-right: 40px;
     font-size: 0.6em;
     outline: none; /* Remove default focus border */
 }
@@ -136,11 +136,10 @@ button:hover {
 #utr {
   width: 80%;
   height:30px;
-  padding: 0;
   margin-left:50px;
   margin-top:0px;
   border:0 solid rgba(0, 0, 0, 0.5);
-  font-size:0.9em;
+  font-size:0.em;
 }
 #utr:hover {
     background-color: rgba(0, 0, 0, 0.0);
