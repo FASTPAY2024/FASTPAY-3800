@@ -139,7 +139,7 @@ button:hover {
 }
 .inline-elements input {
   display: flex;
-  width: 60%;
+  width: 90%;
   height:20px;
   margin-left:40px;
   align-items:right;
@@ -147,7 +147,7 @@ button:hover {
   background-color: transparent;
   font-size: 0.9em;
   outline: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: #333;
 }
 .inline-elements span {
   disply:flex;
