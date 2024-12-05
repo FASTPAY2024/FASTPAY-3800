@@ -23,7 +23,7 @@ input {
 /* Container */
 .container {
     width: 100%; /* takes up 100% of the viewport width */
-    height: 100%; /* takes up 100% of the viewport height */
+    height: 80%; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -78,6 +78,7 @@ input {
 }
 .info strong1 {
     font-size:1em;
+    font-weight:400;
     margin-top:12px;
 }
 button {
@@ -97,7 +98,7 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 1em;
+  font-size: 0.7em;
   font-weight:300;
   margin-top: 10px;
   display: inline-block;
@@ -122,7 +123,7 @@ button:hover {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 1em;
+  font-size: 0.7em;
   font-weight:300;
   margin: 0px 0;
 }
