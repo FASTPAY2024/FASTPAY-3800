@@ -107,8 +107,8 @@ radio {
 }
 
 button {
-  width: 80px;
-  height:80px;
+  width: 100px;
+  height:100px;
   margin-bottom:5px;
   background-color: #FFFFFF;
   color: #4c9de5;
