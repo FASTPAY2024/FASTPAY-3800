@@ -136,7 +136,7 @@ button:hover {
 #utr {
   width: 80%;
   height:30px;
-  margin-left:50px;
+  margin-right:50px;
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.em;
 }
@@ -145,14 +145,14 @@ button:hover {
 }
 .inline-elements {
   display: inline-block;
-  font-size:0.6em;
+  font-size:1em;
+  margin-right: 20px;
+  margin-top:10px;
   font-weight:300;
   color:#555;
   padding:0;
 }
 .inline-elements input {
-  margin-right: 20px;
-  margin-top:10pxpx;
   font-size:0.9em;
   font-weight:300;
   color:#333;
