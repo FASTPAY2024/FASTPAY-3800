@@ -46,7 +46,7 @@ radio {
   disply:inline-block;
   color: #555;
   font-size:0.9em;
-  font-weight:200;
+  font-weight:400;
   margin-top:0;
 }
 .content strong {
@@ -96,7 +96,7 @@ radio {
     font-weight:800;
     color:#333;
     margin-right:10px;
-    margin-top:1px;
+    margin-top:2px;
 }
 .info h3 {
     disply:inline-block;
