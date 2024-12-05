@@ -215,13 +215,7 @@ button:hover {
 .error-btn:hover {
     background-color: #ff976a;
 }
-.inline-elements2 {
-  diaply:inline-block;
-  width: 100%;
-  padding:5px 5px;
-  height:10px;
-  margin-bottom:30px;
-}
+
 
 
 /* Notification Popup */
