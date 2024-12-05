@@ -54,7 +54,7 @@ input {
   color: #555;
   font-size:0.7em;
   font-weight:300;
-  margin-top:15px:
+  margin-top:15px;
 }
 
 .info p2 {
@@ -76,7 +76,7 @@ input {
     font-size:0.7em;
     color:#333;
     margin-right: 70px;
-    margin-left:100px;
+    margin-left:70px;
     font-family:Arial;
 }
 
