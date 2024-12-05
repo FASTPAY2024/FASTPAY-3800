@@ -81,7 +81,9 @@ input {
 }
 
 button {
-  padding: 16px 16px;
+  width: 16%;
+  height:16%;
+  padding: 0;
   background-color: #ffffff;
   color: #4c9de5;
   border: 1px solid #4c9de5;
