@@ -147,12 +147,21 @@ button:hover {
   color:#333;
 }
 .inline-elements span {
-  disply:inline-block;
+  disply:flex;
   color: #333;
   font-size:0.7em;
   font-weight:500;
   text-align:left;
-  
+.inline-elements input::placeholder {
+            color: rgba(0, 0, 0, 0.5); /* 50% transparent black placeholder text */
+}
+.inline-elements input text{
+    border: none;
+    background-color: transparent; /* Transparent background */
+    margin-left:5px;
+    font-size: 0.9em;
+    outline: none; /* Remove default focus border */
+}
         
 /* Submit Button */
 .submit-btn {
