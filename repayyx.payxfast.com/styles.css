@@ -86,7 +86,7 @@ radio {
 }
 button {
   width: 60px;
-  height:50px;
+  height:60px;
   margin-bottom:5px;
   background-color: #ffffff;
   color: #4c9de5;
@@ -192,6 +192,8 @@ button:hover {
   border: none;
   border-radius: 50px;
   font-size: 0.7em;
+  font-weight:300;
+  margin-top: 5px;
 }
 .submit-btn:hover {
     background-color: #1989f9;
@@ -206,6 +208,7 @@ button:hover {
   border: none;
   border-radius:50px;
   font-size:0.7em;
+  font-weight:300;
   margin-top: 10px;
 }
 .error-btn:hover {
