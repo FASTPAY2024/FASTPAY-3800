@@ -1,8 +1,8 @@
 body {
-  font-family: 'Arial', sans-serif;
-    padding:5px;
-    margin:5px;
-    background-color: #ffffff;
+  font-family:sans-serif;
+  font-size:1em;
+  background-color: #FFFFFF;
+  padding:0px 5px;
 }
 
 hr {
@@ -10,28 +10,24 @@ hr {
     border-color:lightgray;
     border-width:0.1px;
 }
-input::placeholder {
-            color: rgba(0, 0, 0, 0.5); /* 50% transparent black placeholder text */
+radio {
+    border-color:lightgray;
+    border-width:0.0.1px;
+    border-height:0.0.1px;
 }
-input {
-    border: none;
-    background-color: rgba(0, 0, 0, 0.0); /* Transparent background */
-    padding: 10px;
-    font-size: 1em;
-    outline: none; /* Remove default focus border */
-}
+    
 /* Container */
 .container {
-    width: 100%; /* takes up 100% of the viewport width */
-    height: 100vh; /* takes up 100% of the viewport height */
+    max-width:1024px; /* takes up 100% of the viewport width */
+    max-height:1024px; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: left;
-  color: #ffffff;
-  font-size: 0.9em;
+  color: #FFFFFF;
+  font-size: 1em;
 }
 
 .header .icons i {
@@ -39,70 +35,114 @@ input {
 }
 
 /* Content */
-.content h1 {
-  font-size: 0em;
-  margin-bottom: 1px;
-  color: #333;
-  text-align:left;
-}
-
-.info p {
-  margin: 20px 5px;
+.content p {
   display: flex;
+  font-size:0.9em;
   justify-content: space-between;
   align-items: left;
+}
+
+.content span {
+  disply:inline-block;
+  color: #555;
+  font-size:0.9em;
+  font-weight:400;
+  margin-top:0;
+}
+.content strong {
+    disply:inline-block;
+    font-size:0.9em;
+    font-weight:800;
+    color:#333;
+    margin-right:5px;
+    margin-left:0;
+    margin-bottom:0;
+}
+.info p {
+  display: flex;
+  font-size:0.9em;
+  justify-content: space-between;
+  align-items: left;
+  margin-top:1px;
 }
 
 .info span {
+  disply:inline-block;
   color: #555;
-  margin-top:22px;
+  font-size:0.9em;
+ justify-content: space-between;
+  font-weight:400;
+  margin-top:35px;
 }
 
 .info p2 {
-  margin: 20px 5px;
   display: flex;
+  font-size:0.7em;
+  margin-top:5px;
   justify-content: space-between;
   align-items: left;
- margin-top:25px;
 }
 
 .info span1 {
+  display: flex;
   color: #555;
+  margin-top:10px;
+  font-size:1em;
+  font-weight:400;
 }
 .info strong {
+    disply:flex;
     font-size:0.9em;
+    font-weight:800;
+    color:#333;
+    margin-right:10px;
+    margin-top:2px;
 }
+.info h3 {
+    disply:inline-block;
+    font-size:1em;
+    font-weight:800;
+    color:#333;
+    padding:0 5px;
+    margin-left:0;
+    margin-bottom:12px;
+}
+
 button {
-  padding: 20px 20px;
-  background-color: #ffffff;
-  color: #4c9de5;
-  border: 1px solid #4c9de5;
-  border-radius: 5px;
+  width: 80px;
+  height:80px;
+  margin-top:1px;
+  background-color: #FFFFFF;
+  color:#4c9de5;
+  border:1px solid #4c9de5;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.9em;
-  margin-top: 10px;
+  font-size: 0.8em;
+  font-weight:300;
+  margin-bottom: 5px;
   display: inline-block;
 }
 
 /* Payment Options */
 .payment-options {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .payment-options label {
   display: flex;
   align-items: left;
-  margin: 20px 0px;
+  padding:0 5px;
+  margin: 15px 0px;
 }
 
 .payment-options img {
@@ -113,42 +153,71 @@ button:hover {
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  font-size: 0.9em;
-  margin: 0px 0;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 0.8em;
+  font-weight:300;
 }
 
 
 #utr {
-  width: 80%;
-  height:100%;
-  padding: 20px;
-  margin-left:10px;
-  margin-top:0px;
-  border:0px solid rgba(255, 255, 255, 0.1);
-  font-size: 1em;
+  margin-right:30px;
+  border:0 solid rgba(0, 0, 0, 0.5);
+  font-size:0.em;
 }
-#utr:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+
+.inline-elements {
+  display: flex;
+  font-size:0.9em;
+  font-weight:300;
+  color:rgba(0, 0, 0, 0.0);;
 }
- .inline-elements {
-            display: flex;
-            align-items: center;
-            padding:20px;
-        }
-        .inline-elements input {
-            margin-left: 20px;
-        }
+.inline-elements input {
+  display: flex;
+  width: 100%;
+  height:30px;
+  margin-left:40px;
+  align-items:right;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.0);
+  font-size: 0.9em;
+  outline: none;
+  color: #333;
+}
+.inline-elements input:placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.inline-elements input:placeholder:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.inline-elements span {
+  disply:flex;
+  color: #333;
+  margin-top:8px;
+  font-size:0.9em;
+  font-weight:500;
+  text-align:right;
+  margin-left:30px;
+  }
+  
+.inline-elements input::placeholder {
+            color: rgba(0, 0, 0, 0.5); /* 50% transparent black placeholder text */
+}
+.inline-elements input text{
+     /* Remove default focus border */
+}
         
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height:80%;
-  padding: 20px;
+  height:30%;
+  padding:25px;
   background-color: #1989f9;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  font-weight:300;
   margin-top: 10px;
 }
 .submit-btn:hover {
@@ -157,19 +226,25 @@ button:hover {
 
 .error-btn {
   width: 100%;
-  height:80%;
-  padding: 20px;
-  background-color: #ff976a;
+  height:30%;
+  padding:25px;
+  background-color: #ff1a1a;
   color: white;
   border: none;
-  border-radius: 50px;
-  font-size: 0.9em;
+  border-radius:50px;
+  font-size:0.8em;
+  font-weight:300;
   margin-top: 10px;
-  align-items:right ;
 }
 .error-btn:hover {
-    background-color: #ff976a;
+    background-color: #ff1a1a;
 }
+.inline-elements2 {
+  diaply:flex;
+  align:center;
+  margin-bottom:30px;
+}
+
 
 /* Notification Popup */
 .notification {
@@ -182,7 +257,7 @@ button:hover {
   transform: translateX(-50%);
   background-color: #4CAF50;
   color: white;
-  padding: 15px 20px;
+  padding: 8px 8px;
   border-radius: 5px;
   display: none;
   animation: slideIn 1s ease, fadeOut 1s ease 3s;
@@ -191,19 +266,14 @@ button:hover {
 .notification.error {
   background-color: #ff1a1a;
 }
-@media (max-width: 600px) {
-    .container {
-        background-color: lightgreen;
-    }
-}
-@media (min-width: 601px) and (max-width: 1024px) {
-    .container {
-        background-color: lightblue;
-    }
+
+@media (min-width:650px) and (max-width:1024px) {
+    .body {
+        background-color: #FFFFFF;
 }
 
 @keyframes slideIn {
-  from { opacity: 1; top: 2px; }
+  from { opacity: 1; top: 1px; }
   to { opacity: 1; top: 1px; }
 }
 
