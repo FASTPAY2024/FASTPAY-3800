@@ -137,7 +137,6 @@ button:hover {
   width: 80%;
   height:30px;
   margin-left:50px;
-  margin-top:10px;
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.em;
 }
@@ -145,14 +144,15 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.0);
 }
 .inline-elements {
-  display: inline;
-  font-size:0.1em;
+  display: inline-block;
+  font-size:0.6em;
   font-weight:300;
   color:#555;
   padding:0;
 }
 .inline-elements input {
-  margin-left: 20px;
+  margin-right: 20px;
+  margin-top:10pxpx;
   font-size:0.9em;
   font-weight:300;
   color:#333;
