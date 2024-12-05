@@ -135,6 +135,8 @@ button:hover {
 
 /* Payment Options */
 .payment-options {
+  width: 5%;
+  height:5%;
   margin: 5px 0;
 }
 
@@ -146,8 +148,6 @@ button:hover {
 }
 
 .payment-options img {
-  width: 5%;
-  height:5%;
   margin-right: 100px;
   margin-left:70px;
 }
