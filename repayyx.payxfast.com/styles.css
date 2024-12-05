@@ -5,7 +5,7 @@ body {
 }
 
 hr {
-    border-style:none;
+    border-style:solde
     border-color:lightgray;
     border-width:0.1px;
 }
@@ -16,8 +16,8 @@ radio {
     
 /* Container */
 .container {
-    max-width:200px; /* takes up 100% of the viewport width */
-    max-height:150px; /* takes up 100% of the viewport height */
+    max-width:650px; /* takes up 100% of the viewport width */
+    max-height:1024px; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -245,7 +245,7 @@ button:hover {
   background-color: #ff1a1a;
 }
 
-@media (min-width:200px) and (max-width: 800px) {
+@media (min-width:100px) and (max-width:650px) {
     .body {
         background-color: #FFFFFF;
 }
