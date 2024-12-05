@@ -75,7 +75,15 @@ radio {
     margin-bottom:12px;
     font-family:Arial;
 }
-
+.info h3 {
+    disply:inline-block;
+    font-size:0.7em;
+    color:#333;
+    padding:0 5px;
+    margin-left:0;
+    margin-bottom:12px;
+    font-family:Arial;
+}
 button {
   width: 60px;
   height:50px;
