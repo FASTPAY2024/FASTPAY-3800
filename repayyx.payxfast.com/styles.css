@@ -58,7 +58,7 @@ input {
 }
 
 .info p2 {
-  margin: 20px 5px;
+  margin: 20px 0;
   display: flex;
   font-size:0.7;
   justify-content: space-between;
@@ -76,7 +76,7 @@ input {
     font-size:0.7em;
     color:#333;
     margin-right:20px;
-    margin-left:20px;
+    margin-left:0;
     margin-bottom:12px;
     font-family:Arial;
 }
@@ -141,14 +141,14 @@ button:hover {
   font-size:0.7em;
 }
 #utr:hover {
-    background-color: rgba(0, 0, 0, 0.0);;
+    background-color: rgba(0, 0, 0, 0.0);
 }
 .inline-elements {
   display: flex;
   font-size:0.7em;
   font-weight:300;
   color:#555;
-  padding:10px 5px;
+  padding:0px 5px;
 }
 .inline-elements input {
   margin-left: 20px;
