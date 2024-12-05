@@ -1,6 +1,5 @@
 body {
   font-family: Arial,sans-serif;
-    padding:5px 0;
     background-color: #ffffff;
 }
 
@@ -21,7 +20,7 @@ input {
 }
 /* Container */
 .container {
-    max-width:650; /* takes up 100% of the viewport width */
+    max-width:650px; /* takes up 100% of the viewport width */
     max-height: 80vh; /* takes up 100% of the viewport height */
 }
 /* Header */
@@ -30,7 +29,7 @@ input {
   justify-content: space-between;
   align-items: left;
   color: #ffffff;
-  font-size: 1em;
+  font-size: 0.7em;
 }
 
 .header .icons i {
@@ -39,7 +38,6 @@ input {
 
 /* Content */
 .content h1 {
-  margin-bottom: 0.1px;
   color: #333;
   text-align:left;
 }
@@ -54,7 +52,6 @@ input {
 .info span {
   disply:inline-block;
   color: #555;
-  margin-top:0;
   font-size:0.7em;
   font-weight:300;
 }
@@ -157,14 +154,13 @@ button:hover {
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height:65%;
-  padding:15px;
+  height:75%;
+  padding:5px;
   background-color: #1989f9;
   color: white;
   border: none;
   border-radius: 50px;
   font-size: 0.9em;
-  margin-top: 10px;
 }
 .submit-btn:hover {
     background-color: #1989f9;
@@ -172,8 +168,8 @@ button:hover {
 
 .error-btn {
   width: 100%;
-  height:65%;
-  padding: 15px;
+  height:75%;
+  padding:5px;
   background-color: #ff976a;
   color: white;
   border: none;
@@ -185,8 +181,8 @@ button:hover {
     background-color: #ff976a;
 }
 .inline-elements2 {
-  width: 100%;
-  height:80%;
+  width: 80%;
+  height:70%;
 }
 .van-row {
   align:center;
