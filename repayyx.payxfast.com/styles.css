@@ -149,7 +149,8 @@ button:hover {
 .inline-elements span {
   disply:flex;
   color: #333;
-  font-size:0.7em;
+  margin-top:10px;
+  font-size:0.9em;
   font-weight:500;
   text-align:right;
   margin-left:20px;
