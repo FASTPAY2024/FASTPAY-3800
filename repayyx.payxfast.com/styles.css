@@ -5,10 +5,14 @@ body {
 
 hr {
     border-style:solid;
-    border-color:lightgray;
-    border-width:0.0.1px;
+    border-color:100;
+    border-width:0.1px;
 }
-
+radio {
+    border-color:100;
+    border-width:0.1px;
+}
+    
 /* Container */
 .container {
     max-width:650px; /* takes up 100% of the viewport width */
@@ -45,11 +49,10 @@ hr {
   color: #555;
   font-size:0.7em;
   font-weight:300;
-  margin-top:20px;
+  margin-top:22px;
 }
 
 .info p2 {
-  margin: 20px 0;
   display: flex;
   font-size:0.7;
   justify-content: space-between;
@@ -66,16 +69,16 @@ hr {
     disply:inline-block;
     font-size:0.7em;
     color:#333;
-    margin-right:20px;
+    margin-right:10px;
     margin-left:0;
     margin-bottom:12px;
     font-family:Arial;
 }
 
 button {
-  width: 70px;
-  height:60px;
-  justify-content:space-between;
+  width: 60px;
+  height:50px;
+  margin-bottom:5px;
   background-color: #ffffff;
   color: #4c9de5;
   border: 1px solid #4c9de5;
@@ -91,7 +94,7 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.6em;
+  font-size: 0.7em;
   font-weight:250;
   margin-bottom: 5px;
   display: inline-block;
@@ -118,7 +121,7 @@ button:hover {
   color: #007bff;
   margin-top:10px;
   margin-bottom:10px;
-  font-size: 0.6em;
+  font-size: 0.7em;
   font-weight:250;
 }
 
@@ -128,14 +131,12 @@ button:hover {
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.em;
 }
-#utr:hover {
-    background-color: rgba(0, 0, 0, 0.0);
-}
+
 .inline-elements {
   display: flex;
   font-size:0.9em;
   font-weight:300;
-  color:#555;
+  color:rgba(0, 0, 0, 0.0);;
 }
 .inline-elements input {
   display: flex;
@@ -152,7 +153,9 @@ button:hover {
 .inline-elements input:placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
-
+.inline-elements input:placeholder:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+}
 .inline-elements span {
   disply:flex;
   color: #333;
@@ -160,7 +163,7 @@ button:hover {
   font-size:0.9em;
   font-weight:500;
   text-align:right;
-  margin-left:20px;
+  margin-left:10px;
   }
   
 .inline-elements input::placeholder {
