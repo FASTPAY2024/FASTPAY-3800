@@ -145,12 +145,11 @@ button:hover {
 }
 .inline-elements {
   display: inline-block;
-  font-size:1em;
+  font-size:0.9em;
   margin-right: 20px;
-  margin-top:10px;
+  margin-top:0;
   font-weight:300;
   color:#555;
-  padding:0;
 }
 .inline-elements input {
   font-size:0.9em;
