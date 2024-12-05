@@ -63,6 +63,7 @@ radio {
   font-size:0.9em;
   justify-content: space-between;
   align-items: left;
+  margin-top:1px;
 }
 
 .info span {
