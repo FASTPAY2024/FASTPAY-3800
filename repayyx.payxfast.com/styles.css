@@ -14,9 +14,9 @@ input::placeholder {
 input {
     border: none;
     background-color: transparent; /* Transparent background */
-    padding:15px 5px;
-    margin-right: 40px;
-    font-size: 0.6em;
+    padding:10px 5px;
+    margin-right:40px;
+    font-size: 0.9em;
     outline: none; /* Remove default focus border */
 }
 /* Container */
@@ -137,7 +137,7 @@ button:hover {
   width: 80%;
   height:30px;
   margin-left:50px;
-  margin-top:0px;
+  margin-top:10px;
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.em;
 }
@@ -145,11 +145,11 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.0);
 }
 .inline-elements {
-  display: flex;
-  font-size:0.9em;
+  display: inline;
+  font-size:0.1em;
   font-weight:300;
   color:#555;
-  padding:0 10px;
+  padding:0;
 }
 .inline-elements input {
   margin-left: 20px;
