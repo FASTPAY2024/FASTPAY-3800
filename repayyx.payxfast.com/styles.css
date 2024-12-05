@@ -12,6 +12,7 @@ hr {
 radio {
     border-color:lightgray;
     border-width:0.0.1px;
+    border-height:0.0.1px;
 }
     
 /* Container */
