@@ -1,6 +1,6 @@
 body {
   font-family: Arial,sans-serif;
-    padding:0 5px;
+    padding:5px 0;
     background-color: #ffffff;
 }
 
@@ -21,8 +21,8 @@ input {
 }
 /* Container */
 .container {
-    max-width: 100%; /* takes up 100% of the viewport width */
-    max-height: 80%; /* takes up 100% of the viewport height */
+    max-width:650; /* takes up 100% of the viewport width */
+    max-height: 80vh; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -45,7 +45,7 @@ input {
 }
 
 .info p {
-  margin: 20px 5px;
+  margin: 0px 5px;
   display: flex;
   font-size:0.7;
   justify-content: space-between;
