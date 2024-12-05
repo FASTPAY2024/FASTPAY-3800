@@ -38,7 +38,29 @@ radio {
   color: #333;
   text-align:left;
 }
+.content p {
+  display: flex;
+  font-size:1em;
+  justify-content: space-between;
+  align-items: left;
+}
 
+.content span {
+  disply:inline-block;
+  color: #555;
+  font-size:1em;
+  font-weight:400;
+  margin-top:16px;
+}
+.content strong {
+    disply:inline-block;
+    font-size:1em;
+    font-weight:800;
+    color:#333;
+    margin-right:5px;
+    margin-left:0;
+    margin-bottom:10px;
+}
 .info p {
   display: flex;
   font-size:1em;
