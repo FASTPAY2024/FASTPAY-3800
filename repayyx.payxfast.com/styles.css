@@ -153,9 +153,9 @@ button:hover {
         
 /* Submit Button */
 .submit-btn {
-  width: 90%;
-  height:75%;
-  padding:20px;
+  width: 100%;
+  height:65%;
+  padding:15px;
   background-color: #1989f9;
   color: white;
   border: none;
@@ -168,9 +168,9 @@ button:hover {
 }
 
 .error-btn {
-  width: 90%;
-  height:75%;
-  padding: 20px;
+  width: 100%;
+  height:65%;
+  padding: 15px;
   background-color: #ff976a;
   color: white;
   border: none;
