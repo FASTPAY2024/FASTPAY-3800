@@ -125,7 +125,7 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight:300;
   margin-bottom: 5px;
   display: inline-block;
@@ -153,7 +153,7 @@ button:hover {
   color: #007bff;
   margin-top:10px;
   margin-bottom:10px;
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight:300;
 }
 
