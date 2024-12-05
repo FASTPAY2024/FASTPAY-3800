@@ -4,7 +4,7 @@ body {
   background-color: #FFFFFF;
   width:100vw;
   height:100vh;
-  zoom:90%;
+  zoom:100%:fixed;
 }
 
 hr {
