@@ -136,7 +136,7 @@ button:hover {
   height:30px;
   padding: 0;
   margin-left:10px;
-  margin-top:0;
+  margin-top:10px;
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.7em;
 }
@@ -148,14 +148,14 @@ button:hover {
   font-size:0.7em;
   font-weight:300;
   color:#555;
+  margin-top:10px;
   padding:0px 5px;
 }
 .inline-elements input {
   margin-left: 20px;
-  font-size:0.7em;
+  font-size:0.9em;
   font-weight:300;
   color:#333;
-  margin-top:10px;
 }
         
 /* Submit Button */
