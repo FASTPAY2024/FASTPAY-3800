@@ -5,9 +5,9 @@ body {
 }
 
 hr {
-    border-style:solid;
+    border-style:none;
     border-color:lightgray;
-    border-width:0.1px;
+    border-width:0.0.1px;
 }
 radio {
    background-color: #FFFFFF;
