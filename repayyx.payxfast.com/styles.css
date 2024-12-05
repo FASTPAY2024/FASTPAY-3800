@@ -45,7 +45,6 @@ input {
 }
 
 .info p {
-  margin: 20px 5px;
   display: flex;
   font-size:0.7;
   justify-content: space-between;
