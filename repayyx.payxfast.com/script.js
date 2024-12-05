@@ -29,10 +29,10 @@ function submitUTR() {
     // Show notification for redirection
         showNotification("UTR submited");
         
-    // Redirect to success.html after 20 seconds (20000 milliseconds)
+    // Redirect to success.html after 10 seconds (10000 milliseconds)
     setTimeout(() => {
       window.location.href = "success.html";
-    }, 20000); 
+    }, 10000); 
 
   } else {
     showNotification("Please enter a valid 12-digit UTR number.", true);
