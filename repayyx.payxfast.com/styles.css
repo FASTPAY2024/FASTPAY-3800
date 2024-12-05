@@ -17,7 +17,7 @@ input {
     border: none;
     background-color: transparent; /* Transparent background */
     padding: 10px;
-    font-size: 0.8em;
+    font-size: 1em;
     outline: none; /* Remove default focus border */
 }
 /* Container */
@@ -56,7 +56,7 @@ input {
   color: #555;
   margin-top:10px;
   font-size:1em;
-  font-weight:400;
+  font-weight:300;
 }
 
 .info p2 {
@@ -70,7 +70,7 @@ input {
   color: #555;
   margin-top:10px;
   font-size:1em;
-  font-weight:400;
+  font-weight:300;
 }
 .info strong {
     font-size:1em;
@@ -98,7 +98,7 @@ button:hover {
 .section-title {
   color: #007bff;
   font-size: 1em;
-  font-weight:400;
+  font-weight:300;
   margin-top: 10px;
   display: inline-block;
 }
@@ -123,7 +123,7 @@ button:hover {
 .utr-instruction {
   color: #007bff;
   font-size: 1em;
-  font-weight:400;
+  font-weight:300;
   margin: 0px 0;
 }
 
@@ -135,7 +135,7 @@ button:hover {
   margin-left:10px;
   margin-top:0px;
   border:0px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.8em;
+  font-size: 1em;
 }
 #utr:hover {
     background-color: rgba(255, 255, 255, 0.1);
@@ -215,7 +215,7 @@ button:hover {
   background-color: #ff1a1a;
 }
 
-@media (min-width:1024px) and (max-width: 1024px) {
+@media (min-width:400px) and (max-width: 1024px) {
     .body {
         background-color: #ffffff;
 }
