@@ -6,8 +6,6 @@ body {
   width:100vw;
   height:100vh;
   padding:10px 10px;
-  overflow: hidden;
-  display: inline-block;
   position: full;
   zoom: normal;
 }
