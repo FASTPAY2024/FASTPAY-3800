@@ -46,7 +46,7 @@ radio {
   color: #555;
   font-size:1em;
   font-weight:400;
-  margin-top:16px;
+  margin-top:0;
 }
 .content strong {
     disply:inline-block;
