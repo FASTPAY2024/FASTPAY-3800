@@ -6,10 +6,10 @@ body {
 hr {
     border-style:solid;
     border-color:lightgray;
-    border-width:0.01px;
+    border-width:0.1px;
 }
 radio {
-    border-color:lightgray;;
+    border-color:lightgray;
     border-width:0.1px;
 }
     
@@ -212,17 +212,12 @@ button:hover {
     background-color: #ff976a;
 }
 .inline-elements2 {
+  diaply:inline-block;
   width: 100%;
+  padding:5px 5px;
   height:10px;
 }
-.van-row {
-  align:center;
-  justify:center;
-  font-weight:lighter;
-  margin-top: 1rem;
-  font-size: 0.5rem;
-  color: rgb(136, 134, 134);
-}
+
 
 /* Notification Popup */
 .notification {
