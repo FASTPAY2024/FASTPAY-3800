@@ -6,7 +6,7 @@ body {
 hr {
     border-style:solid;
     border-color:lighter;
-    border-width:0.1px;
+    border-width:0.0.1em;
 }
 radio {
     border-color:lighter;
