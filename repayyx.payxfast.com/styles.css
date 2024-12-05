@@ -49,7 +49,7 @@ radio {
   color: #555;
   font-size:0.8em;
   font-weight:400;
-  margin-top:20px;
+  margin-top:18px;
 }
 
 .info p2 {
@@ -63,8 +63,8 @@ radio {
 .info span1 {
   color: #555;
   margin-top:10px;
-  font-size:0.7em;
-  font-weight:300;
+  font-size:0.8em;
+  font-weight:400;
 }
 .info strong {
     disply:inline-block;
