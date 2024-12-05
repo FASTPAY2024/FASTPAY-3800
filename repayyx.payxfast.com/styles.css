@@ -1,30 +1,26 @@
 body {
-  font-family: sans-serif;
-  font-size: 1em;
+  font-family:sans-serif;
+  font-size:1em;
   background-color: #FFFFFF;
-  padding: 10px;
+  padding:0px 5px;
 }
 
 hr {
-  border-style: solid;
-  border-color: lightgray;
-  border-width: 0.1px;
+    border-style:solid;
+    border-color:lightgray;
+    border-width:0.1px;
 }
-
-radio { /* It's better to use input[type="radio"] as a selector */
-  border-color: lightgray;
-  border-width: 0.1px; /* Corrected the value */
-  border-height: 0.1px; /* Corrected the value */
+radio {
+    border-color:lightgray;
+    border-width:0.0.1px;
+    border-height:0.0.1px;
 }
-
+    
 /* Container */
 .container {
-  max-width: 100vw;
-  /* takes up 100% of the viewport width */
-  max-height: 100vh;
-  /* takes up 100% of the viewport height */
+    max-width:1024px; /* takes up 100% of the viewport width */
+    max-height:1024px; /* takes up 100% of the viewport height */
 }
-
 /* Header */
 .header {
   display: flex;
@@ -39,52 +35,50 @@ radio { /* It's better to use input[type="radio"] as a selector */
 }
 
 /* Content */
-.content p 
+.content p {
   display: flex;
-  font-size: 0.9em;
+  font-size:0.9em;
   justify-content: space-between;
   align-items: left;
+}
 
-
-.content span 
-  display: inline-block; /* Corrected typo */
+.content span {
+  disply:inline-block;
   color: #555;
-  font-size: 0.9em;
-  font-weight: 400;
-  margin-top: 0;
-
-
-.content  
-  display: inline-block; /* Corrected typo */
-  font-size: 0.9em;
-  font-weight: 800;
-  color: #333;
-  margin-right: 5px;
-  margin-left: 0;
-  margin-bottom: 0;
-
-
+  font-size:0.9em;
+  font-weight:400;
+  margin-top:0;
+}
+.content strong {
+    disply:inline-block;
+    font-size:0.9em;
+    font-weight:800;
+    color:#333;
+    margin-right:5px;
+    margin-left:0;
+    margin-bottom:0;
+}
 .info p {
   display: flex;
-  font-size: 0.9em;
+  font-size:0.9em;
   justify-content: space-between;
   align-items: left;
-  margin-top: 1px;
+  margin-top:1px;
 }
 
 .info span {
-  display: inline-block; /* Corrected typo */
+  disply:inline-block;
   color: #555;
-  font-size: 0.9em;
-  justify-content: space-between;
-  font-weight: 400;
-  margin-top: 25px;
+  font-size:0.9em;
+ justify-content: space-between;
+  font-weight:400;
+  margin-top:35px;
 }
 
 .info p2 {
   display: flex;
-  font-size: 0.7em;
-  margin-top: 5px;
+  font-size:0.7em;
+  margin-top:5px;
   justify-content: space-between;
   align-items: left;
 }
@@ -92,51 +86,49 @@ radio { /* It's better to use input[type="radio"] as a selector */
 .info span1 {
   display: flex;
   color: #555;
-  margin-top: 10px;
-  font-size: 1em;
-  font-weight: 400;
+  margin-top:10px;
+  font-size:1em;
+  font-weight:400;
 }
-
 .info strong {
-  display: flex; /* Corrected typo */
-  font-size: 0.9em;
-  font-weight: 800;
-  color: #333;
-  margin-left: 10px;
-  margin-top: 2px;
+    disply:flex;
+    font-size:0.9em;
+    font-weight:800;
+    color:#333;
+    margin-right:10px;
+    margin-top:2px;
 }
-
 .info h3 {
-  display: inline-block; /* Corrected typo */
-  font-size: 1em;
-  font-weight: 800;
-  color: #333;
-  padding: 0 5px;
-  margin-left: 0;
-  margin-bottom: 12px;
+    disply:inline-block;
+    font-size:1em;
+    font-weight:800;
+    color:#333;
+    padding:0 5px;
+    margin-left:0;
+    margin-bottom:12px;
 }
 
 button {
-  width: 60px;
-  height: 60px;
-  margin-top: 1px;
+  width: 80px;
+  height:80px;
+  margin-top:1px;
   background-color: #FFFFFF;
-  color: #4c9de5;
-  border: 1px solid #4c9de5;
+  color:#4c9de5;
+  border:1px solid #4c9de5;
   border-radius: 4px;
   cursor: pointer;
 }
 
-/* Add a hover effect */
 button:hover {
-  background-color: #e0f2ff;
+  background-color: #FFFFFF;
 }
+
 
 /* Section Title */
 .section-title {
   color: #007bff;
   font-size: 0.8em;
-  font-weight: 300;
+  font-weight:300;
   margin-bottom: 5px;
   display: inline-block;
 }
@@ -148,123 +140,111 @@ button:hover {
 
 .payment-options label {
   display: flex;
-  width: 5%;
-  height: 5%;
   align-items: left;
-  padding: 0 5px;
+  padding:0 5px;
   margin: 15px 0px;
 }
 
 .payment-options img {
   margin-right: 100px;
-  margin-left: 70px;
+  margin-left:70px;
 }
 
 /* UTR Instruction */
 .utr-instruction {
   color: #007bff;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top:10px;
+  margin-bottom:10px;
   font-size: 0.8em;
-  font-weight: 300;
+  font-weight:300;
 }
 
+
 #utr {
-  margin-right: 30px;
-  border: 0 solid rgba(0, 0, 0, 0.0);
-  font-size: 0em;
-  /* If you want the text to be visible, set a font-size */
+  margin-right:30px;
+  border:0 solid rgba(0, 0, 0, 0.0);
+  font-size:0.em;
 }
 
 .inline-elements {
   display: flex;
-  font-size: 0.9em;
-  font-weight: 300;
-  color: rgba(0, 0, 0, 1);
-  /* Set color to black for visibility */
+  font-size:0.9em;
+  font-weight:300;
+  color:rgba(0, 0, 0, 0.5);
 }
-
 .inline-elements input {
   display: flex;
   width: 100%;
-  height: 30px;
-  margin-left: 40px;
-  align-items: right;
+  height:30px;
+  margin-left:40px;
+  align-items:right;
   border: none;
-  background-color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 0.9em;
   outline: none;
   color: #333;
 }
-
 .inline-elements input:placeholder {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.0);
 }
-
-.inline-elements input:focus::placeholder { /* Style placeholder on focus */
-  color: rgba(0, 0, 0, 0.2);
+.inline-elements input:placeholder:hover {
+    background-color: rgba(0, 0, 0, 0.0);
 }
-
 .inline-elements span {
-  display: flex; /* Corrected typo */
+  disply:flex;
   color: #333;
-  margin-top: 8px;
-  font-size: 0.9em;
-  font-weight: 500;
-  text-align: right;
-  margin-left: 30px;
-}
-
+  margin-top:8px;
+  font-size:0.9em;
+  font-weight:500;
+  text-align:right;
+  margin-left:30px;
+  }
+  
 .inline-elements input::placeholder {
-  color: rgba(0, 0, 0, 0.5);
+            color: rgba(0, 0, 0, 0.0); /* 50% transparent black placeholder text */
 }
-
-.inline-elements input text {
-  /* Remove default focus border */
+.inline-elements input text{
+     /* Remove default focus border */
 }
-
+        
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height: 25%;
-  padding: 20px;
+  height:30%;
+  padding:25px;
   background-color: #1989f9;
   color: white;
   border: none;
   border-radius: 50px;
   font-size: 0.8em;
-  font-weight: 300;
+  font-weight:300;
   margin-top: 10px;
 }
-
 .submit-btn:hover {
-  background-color: #1989f9;
-  /* You might want to add a different hover color */
+    background-color: #1989f9;
 }
 
 .error-btn {
   width: 100%;
-  height: 25%;
-  padding: 20px;
+  height:30%;
+  padding:25px;
   background-color: #ff976a;
   color: white;
   border: none;
-  border-radius: 50px;
-  font-size: 0.8em;
-  font-weight: 300;
+  border-radius:50px;
+  font-size:0.8em;
+  font-weight:300;
   margin-top: 10px;
 }
-
 .error-btn:hover {
-  background-color: #ff976a;
-  /* You might want to add a different hover color */
+    background-color: #ff976a;
+}
+.inline-elements2 {
+  diaply:flex;
+  align:center;
+  margin-bottom:30px;
 }
 
-.inline-elements2 {
-  display: flex; /* Corrected typo */
-  align-items: center; /* Corrected property name */
-  margin-bottom: 30px;
-}
 
 /* Notification Popup */
 .notification {
@@ -287,152 +267,17 @@ button:hover {
   background-color: #ff1a1a;
 }
 
-@media only screen and (min-width: 600px) {
-  body {
-    background-color: #FFFFFF;
-  }
-
-  .col-s-1 {
-    width: 8.33%;
-  }
-
-  .col-s-2 {
-    width: 16.66%;
-  }
-
-  .col-s-3 {
-    width: 25%;
-  }
-
-  .col-s-4 {
-    width: 33.33%;
-  }
-
-  .col-s-5 {
-    width: 41.66%;
-  }
-
-  .col-s-6 {
-    width: 50%;
-  }
-
-  .col-s-7 {
-    width: 58.33%;
-  }
-
-  .col-s-8 {
-    width: 66.66%;
-  }
-
-  .col-s-9 {
-    width: 75%;
-  }
-
-  .col-s-10 {
-    width: 83.33%;
-  }
-
-  .col-s-11 {
-    width: 91.66%;
-  }
-
-  .col-s-12 {
-    width: 100%;
-  }
+@media (min-width:650px) and (max-width:1024px) {
+    .body {
+        background-color: #FFFFFF;
 }
-
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: #FFFFFF;
-  }
-
-  .col-1 {
-    width: 8.33%;
-  }
-
-  .col-2 {
-    width: 16.66%;
-  }
-
-  .col-3 {
-    width: 25%;
-  }
-
-  .col-4 {
-    width: 33.33%;
-  }
-
-  .col-5 {
-    width: 41.66%;
-  }
-
-  .col-6 {
-    width: 50%;
-  }
-
-  .col-7 {
-    width: 58.33%;
-  }
-
-  .col-8 {
-    width: 66.66%;
-  }
-
-  .col-9 {
-    width: 75%;
-  }
-
-  .col-10 {
-    width: 83.33%;
-  }
-
-  .col-11 {
-    width: 91.66%;
-  }
-
-  .col-12 {
-    width: 100%;
-  }
-}
-
-/* Combine redundant media queries */
-@media only screen and (min-width: 992px) {
-  body {
-    background-color: #FFFFFF;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  body {
-    background-color: #FFFFFF;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: #FFFFFF;
-  }
-}
-
 
 @keyframes slideIn {
-  from {
-    opacity: 0;
-    top: -50px;
-  }
-
-  to {
-    opacity: 1;
-    top: 1px;
-  }
+  from { opacity: 1; top: 1px; }
+  to { opacity: 1; top: 1px; }
 }
 
 @keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
+  from { opacity: 1; }
+  to { opacity: 1; }
 }
