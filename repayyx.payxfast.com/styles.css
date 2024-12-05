@@ -15,7 +15,8 @@ input {
     border: none;
     background-color: transparent; /* Transparent background */
     padding:10px 0;
-    font-size: 0.9em;
+    margin-left: 20px;
+    font-size: 0.6em;
     outline: none; /* Remove default focus border */
 }
 /* Container */
@@ -82,9 +83,9 @@ input {
 }
 
 button {
-  width: 80px;
-  height:70px;
-  justify-content: space-between;
+  width: 70px;
+  height:600px;
+  justify-content:space-between;
   background-color: #ffffff;
   color: #4c9de5;
   border: 1px solid #4c9de5;
@@ -126,6 +127,7 @@ button:hover {
 .utr-instruction {
   color: #007bff;
   margin-top:10px;
+  margin-bottom:10px;
   font-size: 0.6em;
   font-weight:250;
 }
@@ -135,7 +137,7 @@ button:hover {
   width: 80%;
   height:30px;
   padding: 0;
-  margin-left:30px;
+  margin-left:50px;
   margin-top:0px;
   border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.9em;
