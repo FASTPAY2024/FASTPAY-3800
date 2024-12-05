@@ -49,14 +49,14 @@ radio {
 .info span {
   disply:inline-block;
   color: #555;
-  font-size:0.6em;
+  font-size:1em;
   font-weight:400;
   margin-top:16px;
 }
 
 .info p2 {
   display: flex;
-  font-size:0.7;
+  font-size:0.7em;
   margin-top:5px;
   justify-content: space-between;
   align-items: left;
@@ -65,12 +65,12 @@ radio {
 .info span1 {
   color: #555;
   margin-top:10px;
-  font-size:0.7em;
+  font-size:1em;
   font-weight:400;
 }
 .info strong {
     disply:inline-block;
-    font-size:0.6em;
+    font-size:1em;
     font-weight:800;
     color:#333;
     margin-right:5px;
@@ -79,7 +79,7 @@ radio {
 }
 .info h3 {
     disply:inline-block;
-    font-size:0.6em;
+    font-size:1em;
     font-weight:800;
     color:#333;
     padding:0 5px;
