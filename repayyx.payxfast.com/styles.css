@@ -90,12 +90,11 @@ radio {
   font-weight:400;
 }
 .info strong {
-    disply:inline-block;
+    disply:flex;
     font-size:0.9em;
     font-weight:800;
     color:#333;
-    margin-right:5px;
-    margin-left:0;
+    margin-right:10px;
     margin-top:1px;
 }
 .info h3 {
