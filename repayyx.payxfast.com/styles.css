@@ -216,7 +216,7 @@ button:hover {
   border-radius: 50px;
   font-size: 0.9em;
   font-weight:300;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .submit-btn:hover {
     background-color: #1989f9;
