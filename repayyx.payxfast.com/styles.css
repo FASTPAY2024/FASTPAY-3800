@@ -246,7 +246,7 @@ button:hover {
 
 @media (min-width:400px) and (max-width: 800px) {
     .body {
-        background-color: #ffffff;
+        background-color: #F8F6F0;
 }
 
 @keyframes slideIn {
