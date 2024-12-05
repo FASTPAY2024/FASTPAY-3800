@@ -55,13 +55,14 @@ radio {
 .info p2 {
   display: flex;
   font-size:0.7;
+  margin-top:5px;
   justify-content: space-between;
   align-items: left;
 }
 
 .info span1 {
   color: #555;
-  margin-top:0;
+  margin-top:5px;
   font-size:0.7em;
   font-weight:300;
 }
@@ -69,7 +70,7 @@ radio {
     disply:inline-block;
     font-size:0.7em;
     color:#333;
-    margin-right:10px;
+    margin-right:5px;
     margin-left:0;
     margin-bottom:12px;
     font-family:Arial;
