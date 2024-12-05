@@ -51,7 +51,7 @@ radio {
 .content strong {
     disply:inline-block;
     font-size:1em;
-    font-weight:800;
+    font-weight:500;
     color:#333;
     margin-right:5px;
     margin-left:0;
@@ -90,7 +90,7 @@ radio {
 .info strong {
     disply:inline-block;
     font-size:1em;
-    font-weight:800;
+    font-weight:500;
     color:#333;
     margin-right:5px;
     margin-left:0;
