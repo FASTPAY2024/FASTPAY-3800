@@ -39,22 +39,22 @@ radio { /* It's better to use input[type="radio"] as a selector */
 }
 
 /* Content */
-.content p {
+.content p 
   display: flex;
   font-size: 0.9em;
   justify-content: space-between;
   align-items: left;
-}
 
-.content span {
+
+.content span 
   display: inline-block; /* Corrected typo */
   color: #555;
   font-size: 0.9em;
   font-weight: 400;
   margin-top: 0;
-}
 
-.content strong {
+
+.content  
   display: inline-block; /* Corrected typo */
   font-size: 0.9em;
   font-weight: 800;
@@ -62,7 +62,7 @@ radio { /* It's better to use input[type="radio"] as a selector */
   margin-right: 5px;
   margin-left: 0;
   margin-bottom: 0;
-}
+
 
 .info p {
   display: flex;
