@@ -14,8 +14,8 @@ input::placeholder {
 input {
     border: none;
     background-color: transparent; /* Transparent background */
-    padding: 10px;
-    font-size: 0.9em;
+    padding: 0;
+    font-size: 0.7em;
     outline: none; /* Remove default focus border */
 }
 /* Container */
@@ -128,18 +128,19 @@ button:hover {
 
 #utr {
   width: 80%;
-  height:100%;
-  padding: 10px;
+  height:30px;
+  padding: 0;
   margin-left:10px;
   margin-top:0;
-  border:0 solid rgba(255, 255, 255, 0.0);
+  border:0 solid rgba(0, 0, 0, 0.5);;
   font-size: 0.9em;
 }
 #utr:hover {
-    background-color: rgba(255, 255, 255, 0.0);
+    background-color: rgba(0, 0, 0, 0.0);;
 }
 .inline-elements {
   display: flex;
+  font-size:0.7em;
   align-items: center;
   padding:10px;
 }
@@ -154,7 +155,7 @@ button:hover {
 .submit-btn {
   width: 100%;
   height:60px;
-  padding:5px;
+  padding:0 5px;
   background-color: #1989f9;
   color: white;
   border: none;
@@ -168,7 +169,7 @@ button:hover {
 .error-btn {
   width: 100%;
   height:60px;
-  padding:10px 0;
+  padding:0 5px;
   background-color: #ff976a;
   color: white;
   border: none;
