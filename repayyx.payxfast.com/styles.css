@@ -107,13 +107,13 @@ radio {
 }
 
 button {
-  width: 60px;
-  height:60px;
+  width: 80px;
+  height:80px;
   margin-bottom:5px;
   background-color: #FFFFFF;
   color: #4c9de5;
   border: 1px solid #4c9de5;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
 }
 
