@@ -1,8 +1,7 @@
 body {
   font-family:sans-serif;
   font-size:1em;
-  background-color: #FFFFFF;
-  padding:0px 5px;
+    background-color: #FFFFFF;
 }
 
 hr {
@@ -11,15 +10,15 @@ hr {
     border-width:0.1px;
 }
 radio {
+   background-color: #FFFFFF;
     border-color:lightgray;
-    border-width:0.0.1px;
-    border-height:0.0.1px;
+    border-width:0.1px;
 }
     
 /* Container */
 .container {
-    max-width:1024px; /* takes up 100% of the viewport width */
-    max-height:1024px; /* takes up 100% of the viewport height */
+    max-width:200px; /* takes up 100% of the viewport width */
+    max-height:650px; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -35,72 +34,52 @@ radio {
 }
 
 /* Content */
-.content p {
-  display: flex;
-  font-size:0.9em;
-  justify-content: space-between;
-  align-items: left;
+.content h1 {
+  color: #333;
+  text-align:left;
 }
 
-.content span {
-  disply:inline-block;
-  color: #555;
-  font-size:0.9em;
-  font-weight:400;
-  margin-top:0;
-}
-.content strong {
-    disply:inline-block;
-    font-size:0.9em;
-    font-weight:800;
-    color:#333;
-    margin-right:5px;
-    margin-left:0;
-    margin-bottom:0;
-}
 .info p {
   display: flex;
-  font-size:0.9em;
+  font-size:1em;
   justify-content: space-between;
   align-items: left;
-  margin-top:1px;
 }
 
 .info span {
   disply:inline-block;
   color: #555;
-  font-size:0.9em;
- justify-content: space-between;
+  font-size:0.6em;
   font-weight:400;
-  margin-top:35px;
+  margin-top:16px;
 }
 
 .info p2 {
   display: flex;
-  font-size:0.7em;
+  font-size:0.7;
   margin-top:5px;
   justify-content: space-between;
   align-items: left;
 }
 
 .info span1 {
-  display: flex;
   color: #555;
   margin-top:10px;
-  font-size:1em;
+  font-size:0.7em;
   font-weight:400;
 }
 .info strong {
-    disply:flex;
-    font-size:0.9em;
+    disply:inline-block;
+    font-size:0.6em;
     font-weight:800;
     color:#333;
-    margin-right:10px;
-    margin-top:2px;
+    margin-right:5px;
+    margin-left:0;
+    margin-bottom:14px;
 }
 .info h3 {
     disply:inline-block;
-    font-size:1em;
+    font-size:0.6em;
     font-weight:800;
     color:#333;
     padding:0 5px;
@@ -109,13 +88,13 @@ radio {
 }
 
 button {
-  width: 80px;
-  height:80px;
-  margin-top:1px;
+  width: 60px;
+  height:50px;
+  margin-bottom:5px;
   background-color: #FFFFFF;
-  color:#4c9de5;
-  border:1px solid #4c9de5;
-  border-radius: 4px;
+  color: #4c9de5;
+  border: 1px solid #4c9de5;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -127,7 +106,7 @@ button:hover {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight:300;
   margin-bottom: 5px;
   display: inline-block;
@@ -155,14 +134,14 @@ button:hover {
   color: #007bff;
   margin-top:10px;
   margin-bottom:10px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight:300;
 }
 
 
 #utr {
   margin-right:30px;
-  border:0 solid rgba(0, 0, 0, 0.0);
+  border:0 solid rgba(0, 0, 0, 0.5);
   font-size:0.em;
 }
 
@@ -170,22 +149,22 @@ button:hover {
   display: flex;
   font-size:0.9em;
   font-weight:300;
-  color:rgba(0, 0, 0, 0.5);
+  color:rgba(0, 0, 0, 0.0);;
 }
 .inline-elements input {
   display: flex;
   width: 100%;
-  height:30px;
+  height:20px;
   margin-left:40px;
   align-items:right;
   border: none;
-  background-color: rgba(0, 0, 0, 0.5);
-  font-size: 0.9em;
+  background-color: rgba(0, 0, 0, 0.0);
+  font-size: 1em;
   outline: none;
   color: #333;
 }
 .inline-elements input:placeholder {
-  color: rgba(0, 0, 0, 0.0);
+  color: rgba(0, 0, 0, 0.5);
 }
 .inline-elements input:placeholder:hover {
     background-color: rgba(0, 0, 0, 0.0);
@@ -193,15 +172,15 @@ button:hover {
 .inline-elements span {
   disply:flex;
   color: #333;
-  margin-top:8px;
-  font-size:0.9em;
-  font-weight:500;
+  margin-top:5px;
+  font-size:0.8em;
+  font-weight:400;
   text-align:right;
   margin-left:30px;
   }
   
 .inline-elements input::placeholder {
-            color: rgba(0, 0, 0, 0.0); /* 50% transparent black placeholder text */
+            color: rgba(0, 0, 0, 0.5); /* 50% transparent black placeholder text */
 }
 .inline-elements input text{
      /* Remove default focus border */
@@ -210,15 +189,15 @@ button:hover {
 /* Submit Button */
 .submit-btn {
   width: 100%;
-  height:30%;
-  padding:25px;
+  height:50px;
+  padding:10px 0;
   background-color: #1989f9;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight:300;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .submit-btn:hover {
     background-color: #1989f9;
@@ -226,13 +205,13 @@ button:hover {
 
 .error-btn {
   width: 100%;
-  height:30%;
-  padding:25px;
+  height:50px;
+  padding:10px 0;
   background-color: #ff976a;
   color: white;
   border: none;
   border-radius:50px;
-  font-size:0.8em;
+  font-size:0.7em;
   font-weight:300;
   margin-top: 10px;
 }
@@ -267,7 +246,7 @@ button:hover {
   background-color: #ff1a1a;
 }
 
-@media (min-width:650px) and (max-width:1024px) {
+@media (min-width:200px) and (max-width: 800px) {
     .body {
         background-color: #FFFFFF;
 }
