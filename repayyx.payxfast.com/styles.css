@@ -1,6 +1,6 @@
 body {
   font-family:sans-serif;
-    background-color: #F8F6F0;
+    background-color: #FFFFFF;
 }
 
 hr {
@@ -9,7 +9,7 @@ hr {
     border-width:0.1px;
 }
 radio {
-   background-color: #F8F6F0;
+   background-color: #FFFFFF;
     border-color:lightgray;
     border-width:0.1px;
 }
@@ -24,7 +24,7 @@ radio {
   display: flex;
   justify-content: space-between;
   align-items: left;
-  color: #F8F6F0;
+  color: #FFFFFF;
   font-size: 0.6em;
 }
 
@@ -90,7 +90,7 @@ button {
   width: 60px;
   height:50px;
   margin-bottom:5px;
-  background-color: #F8F6F0;
+  background-color: #FFFFFF;
   color: #4c9de5;
   border: 1px solid #4c9de5;
   border-radius: 5px;
@@ -98,7 +98,7 @@ button {
 }
 
 button:hover {
-  background-color: #F8F6F0;
+  background-color: #FFFFFF;
 }
 
 
@@ -114,7 +114,6 @@ button:hover {
 /* Payment Options */
 .payment-options {
   margin: 5px 0;
-  background-color: #F8F6F0;
 }
 
 .payment-options label {
@@ -122,7 +121,6 @@ button:hover {
   align-items: left;
   padding:0 5px;
   margin: 15px 0px;
- background-color: #F8F6F0;
 }
 
 .payment-options img {
@@ -249,7 +247,7 @@ v
 
 @media (min-width:400px) and (max-width: 800px) {
     .body {
-        background-color: #F8F6F0;
+        background-color: #FFFFFF;
 }
 
 @keyframes slideIn {
