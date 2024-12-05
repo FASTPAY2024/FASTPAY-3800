@@ -18,7 +18,7 @@ radio {
 /* Container */
 .container {
     max-width:200px; /* takes up 100% of the viewport width */
-    max-height:650px; /* takes up 100% of the viewport height */
+    max-height:150px; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
