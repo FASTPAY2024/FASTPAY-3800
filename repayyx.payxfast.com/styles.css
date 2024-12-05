@@ -7,12 +7,11 @@ body {
 hr {
     border-style:none;
     border-color:lightgray;
-    border-width:0.0.1px;
+    border-width:0.1px;
 }
 radio {
-   background-color: #FFFFFF;
     border-color:lightgray;
-    border-width:0.1px;
+    border-width:0.0.1px;
 }
     
 /* Container */
