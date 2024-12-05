@@ -273,11 +273,11 @@ button:hover {
   background-color: #ff1a1a;
 }
 
-@media (min-width:100vw) and (max-width:100vw) {
-    .container {
-        background-color: #FFFFFF;
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
-
 @keyframes slideIn {
   from { opacity: 1; top: 1px; }
   to { opacity: 1; top: 1px; }
