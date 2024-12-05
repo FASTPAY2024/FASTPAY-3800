@@ -70,6 +70,7 @@ radio {
   disply:inline-block;
   color: #555;
   font-size:0.8em;
+ justify-content: space-between;
   font-weight:400;
   margin-top:40px;
 }
