@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial',sans-serif;
+  font-family: Arial,sans-serif;
     padding:5px;
     margin:5px;
     background-color: #ffffff;
@@ -48,6 +48,7 @@ input {
 .info p {
   margin: 20px 5px;
   display: flex;
+  font-size:0.7;
   justify-content: space-between;
   align-items: left;
 }
@@ -55,13 +56,14 @@ input {
 .info span {
   color: #555;
   margin-top:10px;
-  font-size:0.9em;
+  font-size:0.7em;
   font-weight:300;
 }
 
 .info p2 {
   margin: 20px 5px;
   display: flex;
+  font-size:0.7;
   justify-content: space-between;
   align-items: left;
 }
@@ -69,11 +71,13 @@ input {
 .info span1 {
   color: #555;
   margin-top:10px;
-  font-size:0.9em;
+  font-size:0.7em;
   font-weight:300;
 }
 .info strong {
-    font-size:1em;
+    font-size:0.7em;
+    font-family:Arial;
+    font-weight:500;
     margin-top:10px;
 }
 
@@ -102,7 +106,7 @@ button:hover {
 
 /* Payment Options */
 .payment-options {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .payment-options label {
@@ -130,9 +134,9 @@ button:hover {
   height:100%;
   padding: 20px;
   margin-left:10px;
-  margin-top:0px;
-  border:0px solid rgba(255, 255, 255, 0.1);
-  font-size: 1em;
+  margin-top:0;
+  border:0 solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9em;
 }
 #utr:hover {
     background-color: rgba(255, 255, 255, 0.1);
@@ -150,14 +154,14 @@ button:hover {
         
 /* Submit Button */
 .submit-btn {
-  width: 100%;
+  width: 90%;
   height:75%;
-  padding: 20px;
+  padding:20px;
   background-color: #1989f9;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 1em;
+  font-size: 0.9em;
   margin-top: 10px;
 }
 .submit-btn:hover {
@@ -165,14 +169,14 @@ button:hover {
 }
 
 .error-btn {
-  width: 100%;
+  width: 90%;
   height:75%;
   padding: 20px;
   background-color: #ff976a;
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 1em;
+  font-size:0.9em;
   margin-top: 10px;
 }
 .error-btn:hover {
