@@ -114,6 +114,7 @@ button:hover {
 /* Payment Options */
 .payment-options {
   margin: 5px 0;
+  background-color: #F8F6F0;
 }
 
 .payment-options label {
