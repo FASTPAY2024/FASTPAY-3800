@@ -246,7 +246,7 @@ button:hover {
   background-color: #ff1a1a;
 }
 
-@media (min-width:400px) and (max-width: 800px) {
+@media (min-width:200px) and (max-width: 800px) {
     .body {
         background-color: #FFFFFF;
 }
