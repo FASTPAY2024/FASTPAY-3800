@@ -77,12 +77,11 @@ input {
 .info strong {
     font-size:0.7em;
     font-family:Arial;
-    font-weight:500;
     margin-top:10px;
 }
 
 button {
-  padding: 20px 20px;
+  padding: 16px 16px;
   background-color: #ffffff;
   color: #4c9de5;
   border: 1px solid #4c9de5;
