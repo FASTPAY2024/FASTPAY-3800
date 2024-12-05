@@ -55,7 +55,7 @@ input {
 
 .info span {
   color: #555;
-  margin-top:10px;
+  margin-top:0;
   font-size:0.7em;
   font-weight:300;
 }
@@ -70,14 +70,14 @@ input {
 
 .info span1 {
   color: #555;
-  margin-top:10px;
+  margin-top:0;
   font-size:0.7em;
   font-weight:300;
 }
 .info strong {
     font-size:0.7em;
     font-family:Arial;
-    margin-top:10px;
+    margin-top:0;
 }
 
 button {
