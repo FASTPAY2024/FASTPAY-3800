@@ -22,7 +22,7 @@ radio {
 /* Header */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between
   align-items: left;
   color: #FFFFFF;
   font-size: 1em;
