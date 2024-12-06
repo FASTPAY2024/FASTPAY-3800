@@ -37,7 +37,8 @@ container {
   color: #333;
   text-align:left;
 }
-/*info*/
+
+/* info */
 .info p {
   display: flex;
   font-size:1em;
