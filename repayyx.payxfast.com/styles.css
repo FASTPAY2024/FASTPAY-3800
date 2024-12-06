@@ -4,12 +4,12 @@ body {
 }
 
 hr {
-    border-style:overline;
+    border-style:overlayer;
     border-color:lightgray;
     border-width:0.1px;
 }
 radio {
-    border-style:overline;
+    border-style: overlayer;
     border-color:lightgray;
     border-width:0.1px;
 }
@@ -55,7 +55,7 @@ radio {
 }
 
 .info span {
-  disply:inline-block;
+  disply:flex;
   color:#555;
   justify-content: space-between;
   font-size:1em;
