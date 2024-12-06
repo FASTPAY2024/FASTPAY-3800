@@ -13,9 +13,8 @@ radio {
     border-color:lightgray;
     border-width:0.1px;
 }
-    
-/* Container */
-.container {
+
+container {
     max-width: 650px; /* takes up 100% of the viewport width */
     max-height:1024px; /* takes up 100% of the viewport height */
 }
@@ -28,12 +27,12 @@ header {
   font-size: 1em;
 }
 
-.header .icons i {
+header icons i {
   margin-left: 20px;
 }
 
 /* Content */
-.content h1 {
+content h1 {
   color: #333;
   text-align:left;
 }
