@@ -19,7 +19,8 @@ container {
     max-height:1024px; /* takes up 100% of the viewport height */
 }
 
-header {
+/* header */
+.header {
   display: inline-block;
   justify-content: space-between;
   align-items: left;
@@ -27,7 +28,7 @@ header {
   font-size: 1em;
 }
 
-header icons i {
+.header icons i {
   margin-left: 20px;
 }
 
