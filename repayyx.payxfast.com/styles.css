@@ -65,7 +65,7 @@ radio {
 .info span1 {
   color: #555;
   margin-top:10px;
-  font-size:0.7em;
+  font-size:1em;
   font-weight:400;
 }
 .info strong {
@@ -78,7 +78,7 @@ radio {
     margin-bottom:14px;
 }
 .info h3 {
-    disply:inline-block;
+    disply:flax;
     font-size:0.6em;
     font-weight:800;
     color:#333;
