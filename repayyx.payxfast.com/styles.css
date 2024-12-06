@@ -56,17 +56,17 @@ radio {
 
 .info p2 {
   display: flex;
-  font-size:1pm;
-  margin-top:5px;
+  font-size:1em;
   justify-content: space-between;
   align-items: left;
 }
 
 .info span1 {
+  disply:inline-block;
   color: #555;
-  margin-top:10px;
   font-size:1em;
   font-weight:400;
+  margin-top:8px;
 }
 .info strong {
     disply:inline-block;
