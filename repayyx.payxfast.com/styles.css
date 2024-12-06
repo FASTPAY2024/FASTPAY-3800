@@ -4,22 +4,21 @@ body {
 }
 
 hr {
-    border-style:overlayer;
-    border-color:lightgray;
+    border-style:solid;
+    border-color:#5553;
     border-width:0.1px;
 }
 radio {
-    border-style:overline;
+    border-style:solid;
     border-color:#555;
     border-width:0.1px;
-    border-weight:100;
 }
 
 container {
     max-width: 100vw; /* takes up 100% of the viewport width */
     max-height:1024px; /* takes up 100% of the viewport height */
 }
-/* Header */
+
 header {
   display: inline-block;
   justify-content: space-between;
