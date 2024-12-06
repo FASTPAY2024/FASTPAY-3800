@@ -9,9 +9,10 @@ hr {
     border-width:0.1px;
 }
 radio {
-    border-style: overlayer;
-    border-color:lightgray;
+    border-style:overline;
+    border-color:#555;
     border-width:0.1px;
+    border-weight:100;
 }
 
 container {
