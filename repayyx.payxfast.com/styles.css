@@ -51,7 +51,7 @@ radio {
   color: #555;
   font-size:1em;
   font-weight:400;
-  margin-top:0;
+  margin-top:10px;
   margin-left:5px;
 }
 
@@ -67,7 +67,7 @@ radio {
   color: #555;
   font-size:1em;
   font-weight:400;
-  margin-top:0;
+  margin-top:5px;
   margin-left:5px;
 }
 .info strong {
