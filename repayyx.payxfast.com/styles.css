@@ -52,7 +52,7 @@ radio {
   font-size:1em;
   font-weight:400;
   margin-top:8px;
-  margin-left:10px;
+  margin-left:8px;
 }
 
 .info p2 {
@@ -86,7 +86,7 @@ radio {
     color:#333;
     padding:0 5px;
     margin-left:0;
-    margin-bottom:0px;
+    margin-top:5px;
 }
 
 button {
