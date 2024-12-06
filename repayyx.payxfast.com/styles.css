@@ -20,9 +20,9 @@ radio {
     max-height:1024px; /* takes up 100% of the viewport height */
 }
 /* Header */
-.header {
+header {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
   align-items: left;
   color: #FFFFFF;
   font-size: 1em;
