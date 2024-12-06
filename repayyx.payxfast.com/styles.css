@@ -75,10 +75,10 @@ radio {
     color:#333;
     margin-right:5px;
     margin-left:0;
-    margin-bottom:14px;
+    margin-bottom:12px;
 }
 .info h3 {
-    disply:flax;
+    disply:inline-block;
     font-size:0.7em;
     font-weight:800;
     color:#333;
