@@ -4,12 +4,12 @@ body {
 }
 
 hr {
-    border-style:solid;
+    border-style:overline;
     border-color:lightgray;
     border-width:0.1px;
 }
 radio {
-   background-color: #FFFFFF;
+    border-style:overline;
     border-color:lightgray;
     border-width:0.1px;
 }
@@ -44,10 +44,19 @@ radio {
   justify-content: space-between;
   align-items: left;
 }
+.info strong {
+    disply:flax;
+    font-size:0.8em;
+    font-weight:800;
+    color:#333;
+    padding:0 5px;
+    margin-left:0;
+    margin-top:5;
+}
 
 .info span {
   disply:inline-block;
-  color: #555;
+  color:#555;
   font-size:1em;
   font-weight:400;
   margin-top:15px;
@@ -69,17 +78,9 @@ radio {
   margin-top:8px;
   margin-left:5px;
 }
-.info strong {
-    disply:inline-block;
-    font-size:0.8em;
-    font-weight:800;
-    color:#333;
-    padding:0 5px;
-    margin-left:0;
-    margin-top:5;
-}
+
 .info h3 {
-    disply:inline-block;
+    disply:flex;
     font-size:0.8em;
     font-weight:800;
     color:#333;
