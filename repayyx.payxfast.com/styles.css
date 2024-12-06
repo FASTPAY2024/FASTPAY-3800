@@ -17,8 +17,8 @@ radio {
     
 /* Container */
 .container {
-    max-width:200px; /* takes up 100% of the viewport width */
-    max-height:650px; /* takes up 100% of the viewport height */
+    max-width: 650px; /* takes up 100% of the viewport width */
+    max-height:1024px; /* takes up 100% of the viewport height */
 }
 /* Header */
 .header {
@@ -49,14 +49,14 @@ radio {
 .info span {
   disply:inline-block;
   color: #555;
-  font-size:0.6em;
+  font-size:1em;
   font-weight:400;
   margin-top:16px;
 }
 
 .info p2 {
   display: flex;
-  font-size:0.7;
+  font-size:1pm;
   margin-top:5px;
   justify-content: space-between;
   align-items: left;
