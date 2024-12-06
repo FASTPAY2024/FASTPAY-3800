@@ -52,6 +52,7 @@ radio {
   font-size:1em;
   font-weight:400;
   margin-top:10px;
+  margin-right:5px;
 }
 
 .info p2 {
@@ -66,7 +67,8 @@ radio {
   color: #555;
   font-size:1em;
   font-weight:400;
-  margin-top:8px;
+  margin-top:10px;
+  margin-right:5px;
 }
 .info strong {
     disply:inline-block;
