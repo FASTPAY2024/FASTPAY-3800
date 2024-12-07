@@ -259,7 +259,7 @@ container {
 .inline-elements span {
   disply:flex;
   color: #333;
-  margin-top:10px;
+  margin-top:12px;
   font-size:1em;
   font-weight:400;
   text-align:right;
