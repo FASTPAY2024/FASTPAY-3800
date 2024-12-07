@@ -27,9 +27,9 @@ radio {
 button {
   width:fixed;
   height:fixed;
-  width:80px;
-  height:60px;
-  margin-bottom:20px;
+  width:90px;
+  height:70px;
+  margin-bottom:10px;
   background-color: #FFFFFF;
   color: #4c9de5;
   border: 1px solid #4c9de5;
