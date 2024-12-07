@@ -283,6 +283,7 @@ container {
   font-size: 1em;
   font-weight:300;
   margin-top: 5px;
+  margin-bottom:5px;
   max-width:100vw;
   max-height:100vh;
 }
