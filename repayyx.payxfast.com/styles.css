@@ -21,6 +21,7 @@ radio {
     border-style:solid;
     border-color:#555;
     border-width:0.1px;
+    border-size:10px;
 }
 
 button {
