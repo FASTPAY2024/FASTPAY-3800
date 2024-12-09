@@ -272,6 +272,20 @@ container {
   }
   
 /* Submit Button */
+.error-btn {
+  width:100%;
+  height:25%;
+  padding:5%;
+  background-color: #FFFFFF;
+  color:#FFFFFF;
+  border: none;
+  font-size:1em;
+  font-weight:300;
+  margin-bottom:5px;
+}
+.error-btn:hover {
+    background-color: #FF0000;
+}
 .submit-btn {
   width:100%;
   height:25%;
@@ -289,21 +303,6 @@ container {
 }
 .submit-btn:hover {
     background-color: #1989f9;
-}
-
-.error-btn {
-  width:100%;
-  height:25%;
-  padding:5%;
-  background-color: #FFFFFF;
-  color:#FFFFFF;
-  border: none;
-  font-size:1em;
-  font-weight:300;
-  margin-bottom:5px;
-}
-.error-btn:hover {
-    background-color: #FF0000;
 }
 
 
