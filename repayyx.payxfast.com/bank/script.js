@@ -24,10 +24,10 @@ function submitUTR() {
 
   // Check if UTR is 12 digits long
   if (utr && utr.length === 12 && /^\d+$/.test(utr)) {
-    showNotification("submitted");
+    showNotification("submited");
 
     // Show notification for redirection
-        showNotification("submitted");
+        showNotification("submited");
         
     // Redirect to success.html after 10 seconds (10000 milliseconds)
     setTimeout(() => {
