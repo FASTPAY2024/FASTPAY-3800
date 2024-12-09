@@ -275,11 +275,11 @@ container {
   display:inline-block;
   width:60%;
   height:1%;
-  padding:1%;
+  padding:5%;
   background-color:#FFFFFF;
   color:#FF0000;
   border:none;
-  font-size:1em;
+  font-size:0.7em;
   font-weight:500;
 }
 .error-btn:hover {
