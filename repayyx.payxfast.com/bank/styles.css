@@ -269,16 +269,16 @@ container {
   }
   
 .error-btn {
-  width:40%;
+  width:30%;
   height:1%;
   padding:2px;
-  margin-left:47%;
+  margin-left:37%;
   background-color:#FFFFFF;
   color:#FF0000;
   border:none;
   font-size:0.7em;
   text-align:right;
-  font-style:highlight;
+  border:2px underline;
   font-weight:500;
 }
 .error-btn:hover {
