@@ -49,6 +49,6 @@ document.getElementById("submit-utr").addEventListener("click", submitUTR);
 // Handle Payment Failed button click (assuming you have a button with the ID "payment-failed-btn")
 document.getElementById("payment-failed-btn").addEventListener("click", function() {
   window.location.href = "bank.html";
-}
+});
 /(pad|pod|iPad|iPod|iOS)/
 i.test(navigator.userAgent) && (head = document.getElementsByTagName('head'), viewport = document.createElement('meta'), viewport.name = 'viewport', viewport.content = 'target-densitydpi=device-dpi, width=480px, user-scalable=no', head.length > 0 && head[head.length - 1].appendChild(viewport));
