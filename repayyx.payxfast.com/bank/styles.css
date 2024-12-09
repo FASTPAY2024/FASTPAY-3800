@@ -293,10 +293,8 @@ container {
 
 .error-btn {
   color:#FFFFFF;
-  font-colour:#FF0000;
-  color: white;
   border: none;
-  text-aling:ri;
+  text-aling:left;
   font-size:1em;
   font-weight:300;
   margin-bottom:5px;
