@@ -257,7 +257,7 @@ container {
 .inline-elements span {
   disply:flex;
   color: #333;
-  margin-bottom:10%;
+  margin-bottom:5%;
   font-size:1em;
   font-weight:400;
   text-align:right;
@@ -273,11 +273,13 @@ container {
   width:60%;
   height:1%;
   padding:2px;
+  margin-left:90%
   background-color:#FFFFFF;
   color:#FF0000;
   border:none;
   font-size:0.7em;
-  text-align:left;
+  text-align:right;
+  ma
   font-weight:500;
 }
 .error-btn:hover {
