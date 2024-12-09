@@ -8,13 +8,6 @@ function showNotification(message, isError = false) {
   }, 3000);
 }
 
-function submitUTR()(message, isError = center) {
-  const notification = document.getElementById("notification");
-  notification.innerText = message;
-  notification.className = isError ? "notification error" : "notification";
-  notification.style.display = "overlay";
-}
-
 function copyText(text) {
   const tempInput = document.createElement("input");
   document.body.appendChild(tempInput);
