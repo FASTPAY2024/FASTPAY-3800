@@ -234,21 +234,19 @@ container {
   font-weight:300;
   color:rgba(0, 0, 0, 0.5);;
 }
-.inline-elements input {
+.inline-elements input:placeholder {
   display: flex;
   width:80%;
-  height:30px;
+  height:30;
   padding:10px;
   margin-left:40px;
   align-items:right;
   border: none;
-  background-color: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 0, 0, 0,0);
   font-size: 1em;
   outline: none;
   color: #333;
   background-color: #FFFFFF;
-  max-width:100vw;
-  max-height:100vh;
 }
 .inline-elements input:placeholder {
   color: rgba(0, 0, 0, 0,0);
