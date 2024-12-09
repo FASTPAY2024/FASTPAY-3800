@@ -225,7 +225,7 @@ container {
   display:flex;
   width:100px;
   height:20px;
-  padding:20px;
+  padding:10px;
   font-size:1em;
   background-color: #FFFFFF;
   max-width:100vw;
@@ -237,7 +237,7 @@ container {
 .inline-elements input {
   display: flex;
   width:100%
-  height:30px
+  height:30px;
   padding:10px;
   margin-left:40px;
   align-items:right;
@@ -274,7 +274,7 @@ container {
   width:35%;
   height:1%;
   padding:2px;
-  margin-bottom:10%;
+  margin-top:20%;
   margin-left:65%;
   background-color:#FFFFFF;
   color:#FF0000;
