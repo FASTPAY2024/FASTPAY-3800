@@ -246,12 +246,11 @@ container {
   color: #333;
   background-color: #FFFFFF;
 }
-.inline-elements placeholder{
-  width:80%;
-  height:30%;
-}
+
 .inline-elements input:placeholder {
   color: rgba(0, 0, 0, 0,0);
+  width:80%;
+  
 }
 .inline-elements input:placeholder:hover {
   .background-color: rgba(0, 0, 0, 0,0);
