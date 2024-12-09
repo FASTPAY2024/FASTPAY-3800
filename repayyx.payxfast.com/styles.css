@@ -326,16 +326,17 @@ container {
 /* Notification Popup */
 .notification {
   width: 100%;
-  font-size:1.2em;
+  font-weight:500;
+  font-size:0.8rem;
   position: fixed;
   top: 1%;
   left: 50%;
   right: 50%;
-  text-align: center;
+  text-align:center;
   transform: translateX(-50%);
-  background-color: #4CAF50;
+  background-color:#4CAF50;
   color: white;
-  padding: 15px 15px;
+  padding: 15px 10px;
   border-radius: 5px;
   display: none;
   animation: slideIn 1s ease, fadeOut 1s ease 3s;
