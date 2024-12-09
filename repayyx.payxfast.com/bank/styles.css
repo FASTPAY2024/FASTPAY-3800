@@ -224,7 +224,7 @@ container {
 .inline-elements {
   display:flex;
   width:80%;
-  height:20%;
+  height:5%;
   padding:10px;
   font-size:1em;
   background-color:#FFFFFF;
@@ -250,7 +250,6 @@ container {
 .inline-elements input:placeholder {
   color: rgba(0, 0, 0, 0,0);
   width:80%;
-  
 }
 .inline-elements input:placeholder:hover {
   .background-color: rgba(0, 0, 0, 0,0);
@@ -273,10 +272,12 @@ container {
   display:inline-flex;
   width:60%;
   height:1%;
+  padding:2px;
   background-color:#FFFFFF;
   color:#FF0000;
   border:none;
   font-size:0.7em;
+  text-align:left;
   font-weight:500;
 }
 .error-btn:hover {
