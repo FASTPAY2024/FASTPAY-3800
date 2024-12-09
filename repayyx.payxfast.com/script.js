@@ -16,7 +16,7 @@ function copyText(text) {
   tempInput.select();
   document.execCommand("copy");
   document.body.removeChild(tempInput);
-  showNotification("Copy:"+value);
+  showNotification("Copy:"+text);
 }
 
 function submitUTR() {
