@@ -236,7 +236,7 @@ container {
 }
 .inline-elements input {
   display: flex;
-  width:100%;
+  width:80%;
   height:30px;
   padding:10px;
   margin-left:40px;
