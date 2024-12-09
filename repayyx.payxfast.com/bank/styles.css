@@ -292,11 +292,11 @@ container {
 }
 
 .error-btn {
-  background-color:#FFFFFF;
+  color:#FFFFFF;
   font-colour:#FF0000;
   color: white;
   border: none;
-  text-aling:right;
+  text-aling:ri;
   font-size:1em;
   font-weight:300;
   margin-bottom:5px;
