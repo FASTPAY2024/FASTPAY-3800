@@ -237,9 +237,9 @@ container {
 .inline-elements input:placeholder {
   display: flex;
   width:80%;
-  height:30;
+  height:30%;
   padding:10px;
-  margin-left:40px;
+  margin-left:80%;
   align-items:right;
   border: none;
   background-color: rgba(0, 0, 0, 0,0);
