@@ -279,11 +279,11 @@ container {
   background-color:#FFFFFF;
   color:#FF0000;
   border:none;
-  font-size:0.1em;
+  font-size:1em;
   font-weight:500;
 }
 .error-btn:hover {
-    background-color: #FFFFFF:
+    background-color:#FFFFFF;
 }
 .submit-btn {
   width:100%;
