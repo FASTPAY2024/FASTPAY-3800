@@ -274,14 +274,13 @@ container {
 .error-btn {
   display inline-block;
   width:10%;
-  height:5%;
-  padding:5%;
-  background-color: #FFFFFF;
+  height:1%;
+  padding:1%;
+  background-color:#FFFFFF;
   color:#FF0000;
   border:none;
-  font-size:0.3em;
+  font-size:0.1em;
   font-weight:500;
-  margin-bottom:5px;
 }
 
 .submit-btn {
