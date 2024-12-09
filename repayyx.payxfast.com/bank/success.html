@@ -2,50 +2,32 @@
 <html>
 <head>
   <title>Order Success</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=0.8"> 
   <style>
     body {
-      font-family:sans-serif;
-      margin: 0; /* Reset default margin */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .checkmark {
+      font-size: 4em;
+      color: green;
     }
 
     .container {
-      width:100vW; /* takes up 100% of the viewport width */
-      height: 100vh; /* takes up 100% of the viewport height */
-      text-align: center;
-      padding: 20px;
-      border-radius: 10px;
-      background-color: #ffffff; 
-      margin: 20px; /* Add some margin around the container */
+      text-align: center; /* Center the text within the container */
     }
-
-    .icon {
-      width: 100vw; /* takes up 100% of the viewport width */
-      height: 100vh; /* takes up 100% of the viewport height */
-    }
-    /* Media query for smaller screens */
-   @media (max-width: 768px) {
-  /* Styles for screens with a maximum width of 768px */
-  body {
-    font-size: 14px;
-  }
-  .container {
-    width: 90%; 
-  }
-}
-    @media (max-height: 600px) { 
-     .my-element {
-      height: 200px; 
-     }
-}
-
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="icon">
-    <center>  <img src="https://i.ibb.co.com/gyx0pH0/IMG-6263.png" alt="IMG_6263"></i></center>
+  <div class="container"> 
+    <div class="checkmark">&#10004;</div> 
+    <p>Order is success</p>
+    <a href="https://ibb.co.com/z4ft4zw"><img src="https://i.ibb.co.com/G5Pr5qj/IMG-6263.png" alt="IMG-6263" border="0"></a>
   </div>
 </body>
 </html>
