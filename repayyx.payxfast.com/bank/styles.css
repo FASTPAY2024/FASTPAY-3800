@@ -272,13 +272,13 @@ container {
   width:60%;
   height:1%;
   padding:2px;
-  margin-left:50%;
+  margin-left:40%;
   background-color:#FFFFFF;
   color:#FF0000;
   border:none;
   font-size:0.7em;
   text-align:right;
-  ma
+  font-style:highlight;
   font-weight:500;
 }
 .error-btn:hover {
