@@ -3,10 +3,16 @@ function showNotification(message, isError = false) {
   notification.innerText = message;
   notification.className = isError ? "notification error" : "notification";
   notification.style.display = "block";
-
   setTimeout(() => {
     notification.style.display = "none";
   }, 3000);
+}
+
+function submitUTR()(message, isError = center) {
+  const notification = document.getElementById("notification");
+  notification.innerText = message;
+  notification.className = isError ? "notification error" : "notification";
+  notification.style.display = "overlay";
 }
 
 function copyText(text) {
@@ -16,7 +22,7 @@ function copyText(text) {
   tempInput.select();
   document.execCommand("copy");
   document.body.removeChild(tempInput);
-  showNotification("Copy + text");
+  showNotification("Copy:"+input);
 }
 
 function submitUTR() {
