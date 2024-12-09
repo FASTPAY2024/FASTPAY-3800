@@ -93,7 +93,7 @@ container {
 }
 .info strong {
     disply:flax;
-    font-size:0.7rem;
+    font-size:0.8rem;
     font-weight:600;
     margin:10px:
     color:#333;
@@ -109,7 +109,7 @@ container {
   disply:flex;
   color:#1139;
   justify-content: space-between;
-  font-size:0.9em;
+  font-size:0.8rem;
   font-weight:400;
   margin-top:20px;
   margin-left:4px;
@@ -133,7 +133,7 @@ container {
 .info span1 {
   disply:inline-block;
   color: #1139;
-  font-size:1em;
+  font-size:0.8rem;
   font-weight:400;
   margin-top:0;
   margin-left:5px;
