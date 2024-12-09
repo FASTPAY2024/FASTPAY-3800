@@ -11,7 +11,7 @@
     }
 
     .container {
-      width: auto; /* takes up 100% of the viewport width */
+      width:100vW; /* takes up 100% of the viewport width */
       height: 100vh; /* takes up 100% of the viewport height */
       text-align: center;
       padding: 20px;
@@ -21,25 +21,31 @@
     }
 
     .icon {
-      width: auto; /* takes up 100% of the viewport width */
+      width: 100vw; /* takes up 100% of the viewport width */
       height: 100vh; /* takes up 100% of the viewport height */
     }
-
     /* Media query for smaller screens */
-    @media (max-width: 768px) {
-      .icon {
-        font-size: 5em;
-        width: auto; /* takes up 100% of the viewport width */
-      height: 100vh; /* takes up 100% of the viewport height */
-        
-    }
+   @media (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px */
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%; 
+  }
+}
+    @media (max-height: 600px) { 
+     .my-element {
+      height: 200px; 
+     }
+}
+
   </style>
 </head>
 <body>
   <div class="container">
-    <i class= img >
+    <div class="icon">
     <center>  <img src="https://i.ibb.co.com/RjNpXsw/IMG-6261.png" alt="IMG-6261"></i></center>
-
   </div>
 </body>
 </html>
