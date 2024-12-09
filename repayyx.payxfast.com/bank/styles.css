@@ -232,7 +232,7 @@ container {
   font-weight:300;
   color:rgba(0, 0, 0, 0,0);
 }
-.inline-elements input:placeholder {
+.inline-elements input{
   display: flex;
   width:80%;
   height:30%;
