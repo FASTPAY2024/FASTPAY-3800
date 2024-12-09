@@ -292,13 +292,10 @@ container {
 }
 
 .error-btn {
-  width:100%;
-  height:25%;
-  padding:5%;
-  background-color:#FF0000;
+  background-color:none;
   color: white;
   border: none;
-  border-radius:50px;
+  text-aling:right;
   font-size:1em;
   font-weight:300;
   margin-bottom:5px;
