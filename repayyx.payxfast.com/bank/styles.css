@@ -293,6 +293,7 @@ container {
 
 .error-btn {
   background-color:none;
+  font-colour:#FF0000;
   color: white;
   border: none;
   text-aling:right;
