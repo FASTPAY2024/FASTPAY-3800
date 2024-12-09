@@ -272,7 +272,8 @@ container {
   }
   
 .error-btn {
-  width:20%;
+  display inline-block;
+  width:10%;
   height:5%;
   padding:5%;
   background-color: #FFFFFF;
