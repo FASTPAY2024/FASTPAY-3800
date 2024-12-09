@@ -3,6 +3,7 @@ function showNotification(message, isError = false) {
   notification.innerText = message;
   notification.className = isError ? "notification error" : "notification";
   notification.style.display = "block";
+  
   setTimeout(() => {
     notification.style.display = "none";
   }, 3000);
@@ -15,7 +16,7 @@ function copyText(text) {
   tempInput.select();
   document.execCommand("copy");
   document.body.removeChild(tempInput);
-  showNotification("Copy:"+input);
+  showNotification("Copy:"+tempInput);
 }
 
 function submitUTR() {
