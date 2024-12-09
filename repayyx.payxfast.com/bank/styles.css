@@ -225,14 +225,14 @@ container {
   display:flex;
   width:80%;
   height:20%;
-  padding:3%;
+  padding:10px;
   font-size:1em;
-  background-color: #FFFFFF;
+  background-color:#FFFFFF;
   margin-right:30px;
   font-weight:300;
-  color:rgba(0, 0, 0, 0,0);
+  color:rgba(0, 0, 0, 0, 0);
 }
-.inline-elements input{
+.inline-elements input {
   display: flex;
   width:80%;
   height:30%;
