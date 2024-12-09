@@ -270,7 +270,21 @@ container {
   max-width:100vw;
   max-height:100vh;
   }
-  
+.error {
+  width:35%;
+  height:1%;
+  padding:2px;
+  margin-left:65%;
+  background-color:#FFFFFF;
+  color:#FF0000;
+  border:none;
+  font-size:0.7em;
+  text-align:right;
+  font-weight:500;
+}
+.error-btn:hover {
+    background-color:#FFFFFF;
+}
 /* Submit Button */
 .submit-btn {
   width:100%;
