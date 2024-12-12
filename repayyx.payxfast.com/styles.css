@@ -80,13 +80,9 @@ container {
 }
 
 .info span {
-  disply:flex;
-  color:#1139;
-  justify-content: space-between;
-  font-size:1rem;
-  font-weight:400;
-  margin-top:10px;
-  margin-left:4px;
+ float: left;
+ margin-top: 0.8rem; 
+ text-align: left;
 }
 
 .info p2 {
