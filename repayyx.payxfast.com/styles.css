@@ -272,16 +272,16 @@ container {
 .notification {
   width: 100%;
   font-weight:500;
-  font-size:1rem;
+  font-size:0.7rem;
   position: fixed;
-  top:1%;
+  top:0%;
   left:50%;
   right:50%;
   text-align:center;
   transform: translateX(-50%);
   background-color:#4CAF50;
   color: white;
-  padding: 12px 10px;
+  padding: 10px 10px;
   border-radius: 5px;
   display: none;
   animation: slideIn 1s ease, fadeOut 1s ease 3s;
