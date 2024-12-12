@@ -86,7 +86,7 @@ container {
 .info strong1 {
     font-weight: bold;
     text-align: right;
-    margin-bottom:0.8rem;
+    margin-bottom:2rem;
 }
 .info p2 {
   display: flex;
