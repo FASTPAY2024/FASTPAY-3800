@@ -110,7 +110,7 @@ container {
 .info span1 {
   disply:inline-block;
   color: #1139;
-  font-size:1rem;
+  font-size:0.9rem;
   font-weight:400;
   margin-top:0;
   margin-left:5px;
@@ -132,7 +132,7 @@ container {
 /* Section Title */
 .section-title {
   color: #007bff;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight:400;
   margin-bottom:10px;
   display: inline-block;
@@ -173,7 +173,7 @@ container {
   color: #007bff;
   margin-top:20px;
   margin-bottom:10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight:400;
   background-color: #FFFFFF;
 }
@@ -183,7 +183,7 @@ container {
   width:100%;
   height:20px;
   padding:10px;
-  font-size:1rem;
+  font-size:0.9rem;
   background-color: #FFFFFF;
   max-width:100vw;
   max-height:100vh;
@@ -200,7 +200,7 @@ container {
   align-items:right;
   border: none;
   background-color: rgba(0, 0, 0, 0.0);
-  font-size: 1em;
+  font-size:0.9rem;
   outline: none;
   color: #333;
   background-color: #FFFFFF;
@@ -215,7 +215,7 @@ container {
   disply:flex;
   color: #333;
   margin-bottom:10px;
-  font-size:1em;
+  font-size:0.9em;
   font-weight:400;
   text-align:right;
   margin-left:
@@ -226,11 +226,11 @@ container {
   height:1px;
   padding:1px;
   margin-top:20%;
-  margin-left:68%;
+  margin-left:58%;
   background-color:#FFFFFF;
   color:#FF0000;
   border:none;
-  font-size:0.8rem;
+  font-size:0.7rem;
   text-align:right;
   font-weight:600;
 }
