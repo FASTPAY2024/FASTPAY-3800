@@ -80,7 +80,11 @@ container {
  margin-top: 0.8rem; 
  text-align: left;
 }
-
+.info strong {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0.8rem;
+}
 .info p2 {
   display: flex;
   font-size:1em;
