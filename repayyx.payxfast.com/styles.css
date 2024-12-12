@@ -45,7 +45,6 @@ container {
   justify-content: space-between;
   align-items: left;
   color: #FFFFFF;
-  font-size: 1em;
 }
 
 .header icons i {
@@ -71,12 +70,9 @@ container {
   align-items: left;
 }
 .info strong {
-    disply:flax;
-    font-size:1rem;
-    font-weight:600;
-    margin-top:100px:
-    color:#333;
-    padding:5px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0.8rem;
 }
 
 .info span {
